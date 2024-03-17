@@ -1,13 +1,13 @@
-# Configuration file for the Sphinx documentation builder.
+from ugokukun import __author__, __version__
 
 # -- Project information
 
 project = "Ugoku-kun"
-copyright = "2024, qwasium"
-author = "qwasium"
+copyright = "2024, " + __author__
+author = __author__
 
-release = "0.1"
-version = "0.1.0"
+release = __version__
+version = __version__
 
 # -- General configuration
 
@@ -17,6 +17,7 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.autosummary",
     "sphinx.ext.intersphinx",
+    "sphinx.ext.viewcode",
 ]
 
 intersphinx_mapping = {
@@ -33,3 +34,15 @@ html_theme = "sphinx_rtd_theme"
 
 # -- Options for EPUB output
 epub_show_urls = "footnote"
+
+autodoc_default_options = {
+    "members": True,
+    "undoc-members": True,
+    "methods": True,
+    "special-members": "__call__",
+    "exclude-members": "_abc_impl",
+    "show-inheritance": True,
+}
+
+autosummary_generate = True
+autosummary_generate_overwrite = False
