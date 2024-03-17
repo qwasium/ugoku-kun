@@ -1,0 +1,8 @@
+{
+  "cannon": {
+    "camera_0": "192.168.11.152:8080"
+  },
+  "keigan": {
+    "turntable_0": "/dev/ttyUSB0"
+  }
+}
