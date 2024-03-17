@@ -3,4 +3,4 @@ ugokukun
 
 try ugokukun here
 
-.. automodule:: ugokukun
+.. automodule:: ugokukun,ugoku_helpers
