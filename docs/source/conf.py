@@ -5,7 +5,7 @@ lib_path = os.path.join(
     os.path.dirname(os.path.abspath(__file__)), "..", "..", "ugokukun"
 )
 with AddPath(lib_path):
-    from ugokukun import __author__, __version__
+    from __init__ import __author__, __version__
 
 # -- Project information
 
