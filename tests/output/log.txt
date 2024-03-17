@@ -288,3 +288,1324 @@
 2024-03-17 20:40:49,848 - ugoku_kun.cannon_wrapper - INFO -   - Request success: 200
 2024-03-17 20:40:49,848 - ugoku_kun.cannon_wrapper - INFO -   - Current shooting parameters: {"shootingmodedial":{"value":"m"},"av":{"value":"f10","ability":["f2.8","f3.2","f3.5","f4.0","f4.5","f5.0","f5.6","f6.3","f7.1","f8.0","f9.0","f10","f11","f13","f14","f16","f18","f20","f22"]},"tv":{"value":"5\"","ability":["bulb","30\"","25\"","20\"","15\"","13\"","10\"","8\"","6\"","5\"","4\"","3\"2","2\"5","2\"","1\"6","1\"3","1\"","0\"8","0\"6","0\"5","0\"4","0\"3","1\/4","1\/5","1\/6","1\/8","1\/10","1\/13","1\/15","1\/20","1\/25","1\/30","1\/40","1\/50","1\/60","1\/80","1\/100","1\/125","1\/160","1\/200","1\/250","1\/320","1\/400","1\/500","1\/640","1\/800","1\/1000","1\/1250","1\/1600","1\/2000","1\/2500","1\/3200","1\/4000"]},"iso":{"value":"auto","ability":["auto","100","125","160","200","250","320","400","500","640","800","1000","1250","1600","2000","2500","3200","4000","5000","6400","8000","10000","12800"]},"exposure":{"value":"-0_2\/3","ability":["-3.0","-2_2\/3","-2_1\/3","-2.0","-1_2\/3","-1_1\/3","-1.0","-0_2\/3","-0_1\/3","+0.0","+0_1\/3","+0_2\/3","+1.0","+1_1\/3","+1_2\/3","+2.0","+2_1\/3","+2_2\/3","+3.0"]},"wb":{"value":"auto","ability":["auto","awbwhite","daylight","shade","cloudy","tungsten","whitefluorescent","flash","custom","colortemp"]},"colortemperature":{"value":7200,"ability":{"min":2500,"max":10000,"step":100}},"afoperation":{"value":"manual"},"afmethod":{"value":"face+tracking","ability":["face+tracking","spot","1point","zone"]},"stillimagequality":{"value":{"raw":"none","jpeg":"large_fine"},"ability":{"raw":["none","raw","craw"],"jpeg":["none","large_fine","large_normal","medium_fine","medium_normal","small1_fine","small1_normal","small2"]}},"stillimageaspectratio":{"value":"3:2","ability":["3:2","4:3","16:9","1:1"]},"flash":{"value":"on","ability":["on","off"]},"metering":{"value":"evaluative","ability":["evaluative","partial","spot","center_weighted_average"]},"drive":{"value":"single","ability":["single","continuous","self_10sec","self_2sec","self_continuous"]},"aeb":{"value":"+0.0","ability":["+0.0","+0_1\/3","+0_2\/3","+1.0","+1_1\/3","+1_2\/3","+2.0"]},"wbshift":{"value":{"ba":0,"mg":0},"ability":{"ba":{"min":-9,"max":9,"step":1},"mg":{"min":-9,"max":9,"step":1}}},"wbbracket":{"value":"0","ability":["0","ba1","ba2","ba3","mg1","mg2","mg3"]},"colorspace":{"value":"srgb","ability":["srgb","adobe_rgb"]},"picturestyle":{"value":"auto","ability":["auto","standard","portrait","landscape","finedetail","neutral","faithful","monochrome","userdef1","userdef2","userdef3"]},"picturestyle_auto":{"value":{"sharpness_strength":4,"sharpness_fineness":2,"sharpness_threshold":4,"contrast":0,"saturation":0,"colortone":0},"ability":{"sharpness_strength":{"min":0,"max":7,"step":1},"sharpness_fineness":{"min":1,"max":5,"step":1},"sharpness_threshold":{"min":1,"max":5,"step":1},"contrast":{"min":-4,"max":4,"step":1},"saturation":{"min":-4,"max":4,"step":1},"colortone":{"min":-4,"max":4,"step":1}}},"picturestyle_standard":{"value":{"sharpness_strength":4,"sharpness_fineness":2,"sharpness_threshold":4,"contrast":0,"saturation":0,"colortone":0},"ability":{"sharpness_strength":{"min":0,"max":7,"step":1},"sharpness_fineness":{"min":1,"max":5,"step":1},"sharpness_threshold":{"min":1,"max":5,"step":1},"contrast":{"min":-4,"max":4,"step":1},"saturation":{"min":-4,"max":4,"step":1},"colortone":{"min":-4,"max":4,"step":1}}},"picturestyle_portrait":{"value":{"sharpness_strength":3,"sharpness_fineness":2,"sharpness_threshold":4,"contrast":0,"saturation":0,"colortone":0},"ability":{"sharpness_strength":{"min":0,"max":7,"step":1},"sharpness_fineness":{"min":1,"max":5,"step":1},"sharpness_threshold":{"min":1,"max":5,"step":1},"contrast":{"min":-4,"max":4,"step":1},"saturation":{"min":-4,"max":4,"step":1},"colortone":{"min":-4,"max":4,"step":1}}},"picturestyle_landscape":{"value":{"sharpness_strength":5,"sharpness_fineness":2,"sharpness_threshold":4,"contrast":0,"saturation":0,"colortone":0},"ability":{"sharpness_strength":{"min":0,"max":7,"step":1},"sharpness_fineness":{"min":1,"max":5,"step":1},"sharpness_threshold":{"min":1,"max":5,"step":1},"contrast":{"min":-4,"max":4,"step":1},"saturation":{"min":-4,"max":4,"step":1},"colortone":{"min":-4,"max":4,"step":1}}},"picturestyle_finedetail":{"value":{"sharpness_strength":4,"sharpness_fineness":1,"sharpness_threshold":1,"contrast":0,"saturation":0,"colortone":0},"ability":{"sharpness_strength":{"min":0,"max":7,"step":1},"sharpness_fineness":{"min":1,"max":5,"step":1},"sharpness_threshold":{"min":1,"max":5,"step":1},"contrast":{"min":-4,"max":4,"step":1},"saturation":{"min":-4,"max":4,"step":1},"colortone":{"min":-4,"max":4,"step":1}}},"picturestyle_neutral":{"value":{"sharpness_strength":0,"sharpness_fineness":2,"sharpness_threshold":2,"contrast":0,"saturation":0,"colortone":0},"ability":{"sharpness_strength":{"min":0,"max":7,"step":1},"sharpness_fineness":{"min":1,"max":5,"step":1},"sharpness_threshold":{"min":1,"max":5,"step":1},"contrast":{"min":-4,"max":4,"step":1},"saturation":{"min":-4,"max":4,"step":1},"colortone":{"min":-4,"max":4,"step":1}}},"picturestyle_faithful":{"value":{"sharpness_strength":0,"sharpness_fineness":2,"sharpness_threshold":2,"contrast":0,"saturation":0,"colortone":0},"ability":{"sharpness_strength":{"min":0,"max":7,"step":1},"sharpness_fineness":{"min":1,"max":5,"step":1},"sharpness_threshold":{"min":1,"max":5,"step":1},"contrast":{"min":-4,"max":4,"step":1},"saturation":{"min":-4,"max":4,"step":1},"colortone":{"min":-4,"max":4,"step":1}}},"picturestyle_monochrome":{"value":{"sharpness_strength":4,"sharpness_fineness":2,"sharpness_threshold":4,"contrast":0,"filtereffect":"none","toningeffect":"none"},"ability":{"sharpness_strength":{"min":0,"max":7,"step":1},"sharpness_fineness":{"min":1,"max":5,"step":1},"sharpness_threshold":{"min":1,"max":5,"step":1},"contrast":{"min":-4,"max":4,"step":1},"filtereffect":["none","yellow","orange","red","green"],"toningeffect":["none","sepia","blue","purple","green"]}},"picturestyle_userdef1":{"value":{"basepicturestyle":"auto","sharpness_strength":4,"sharpness_fineness":2,"sharpness_threshold":4,"contrast":0,"saturation":0,"colortone":0},"ability":{"basepicturestyle":[],"sharpness_strength":{"min":0,"max":7,"step":1},"sharpness_fineness":{"min":1,"max":5,"step":1},"sharpness_threshold":{"min":1,"max":5,"step":1},"contrast":{"min":-4,"max":4,"step":1},"saturation":{"min":-4,"max":4,"step":1},"colortone":{"min":-4,"max":4,"step":1}}},"picturestyle_userdef2":{"value":{"basepicturestyle":"auto","sharpness_strength":4,"sharpness_fineness":2,"sharpness_threshold":4,"contrast":0,"saturation":0,"colortone":0},"ability":{"basepicturestyle":[],"sharpness_strength":{"min":0,"max":7,"step":1},"sharpness_fineness":{"min":1,"max":5,"step":1},"sharpness_threshold":{"min":1,"max":5,"step":1},"contrast":{"min":-4,"max":4,"step":1},"saturation":{"min":-4,"max":4,"step":1},"colortone":{"min":-4,"max":4,"step":1}}},"picturestyle_userdef3":{"value":{"basepicturestyle":"auto","sharpness_strength":4,"sharpness_fineness":2,"sharpness_threshold":4,"contrast":0,"saturation":0,"colortone":0},"ability":{"basepicturestyle":[],"sharpness_strength":{"min":0,"max":7,"step":1},"sharpness_fineness":{"min":1,"max":5,"step":1},"sharpness_threshold":{"min":1,"max":5,"step":1},"contrast":{"min":-4,"max":4,"step":1},"saturation":{"min":-4,"max":4,"step":1},"colortone":{"min":-4,"max":4,"step":1}}},"picturestyle_userdef1_basepicturestyle":{"value":"auto","ability":["auto","standard","portrait","landscape","finedetail","neutral","faithful","monochrome"]},"picturestyle_userdef2_basepicturestyle":{"value":"auto","ability":["auto","standard","portrait","landscape","finedetail","neutral","faithful","monochrome"]},"picturestyle_userdef3_basepicturestyle":{"value":"auto","ability":["auto","standard","portrait","landscape","finedetail","neutral","faithful","monochrome"]},"moviequality":{"value":"","ability":[]},"highframerate":{"value":"","ability":[]},"soundrecording":{"value":"","ability":[]},"soundrecording_level":{"value":null,"ability":{"min":null,"max":null,"step":null}},"soundrecording_windfilter":{"value":"","ability":[]},"soundrecording_attenuator":{"value":"","ability":[]}}
 2024-03-17 20:40:49,849 - ugoku_kun.cannon_wrapper - INFO -   - Shutter speed set to: 5"
+2024-03-18 03:07:23,641 - ugokukun.keigan_wrapper - INFO - Initialized Keigan motor at: 
+2024-03-18 03:07:23,642 - ugokukun.keigan_wrapper - INFO -   - /dev/ttyUSB0
+2024-03-18 03:07:23,643 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi
+2024-03-18 03:07:23,723 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:07:23,725 - ugokukun.cannon_wrapper - INFO -   - Connection established
+2024-03-18 03:07:23,725 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/deviceinformation
+2024-03-18 03:07:23,735 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:07:23,736 - ugokukun.cannon_wrapper - INFO -   - Acquired device information
+2024-03-18 03:07:23,736 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/settings
+2024-03-18 03:07:23,764 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:07:23,765 - ugokukun.cannon_wrapper - INFO -   - Current shooting parameters: {"shootingmodedial":{"value":"a+"},"av":{"value":"","ability":[]},"tv":{"value":"","ability":[]},"iso":{"value":"","ability":[]},"exposure":{"value":"","ability":[]},"wb":{"value":"","ability":[]},"colortemperature":{"value":null,"ability":{"min":null,"max":null,"step":null}},"afoperation":{"value":"manual"},"afmethod":{"value":"face+tracking","ability":["face+tracking"]},"stillimagequality":{"value":{"raw":"none","jpeg":"large_fine"},"ability":{"raw":["none","raw","craw"],"jpeg":["none","large_fine","large_normal","medium_fine","medium_normal","small1_fine","small1_normal","small2"]}},"stillimageaspectratio":{"value":"3:2","ability":["3:2","4:3","16:9","1:1"]},"flash":{"value":"auto","ability":["auto","on"]},"metering":{"value":"","ability":[]},"drive":{"value":"single","ability":["single","continuous","self_10sec","self_2sec","self_continuous"]},"aeb":{"value":"","ability":[]},"wbshift":{"value":{"ba":null,"mg":null},"ability":{"ba":{"min":null,"max":null,"step":null},"mg":{"min":null,"max":null,"step":null}}},"wbbracket":{"value":"","ability":[]},"colorspace":{"value":"","ability":[]},"picturestyle":{"value":"","ability":[]},"picturestyle_auto":{"value":{"sharpness_strength":null,"sharpness_fineness":null,"sharpness_threshold":null,"contrast":null,"saturation":null,"colortone":null},"ability":{"sharpness_strength":{"min":null,"max":null,"step":null},"sharpness_fineness":{"min":null,"max":null,"step":null},"sharpness_threshold":{"min":null,"max":null,"step":null},"contrast":{"min":null,"max":null,"step":null},"saturation":{"min":null,"max":null,"step":null},"colortone":{"min":null,"max":null,"step":null}}},"picturestyle_standard":{"value":{"sharpness_strength":null,"sharpness_fineness":null,"sharpness_threshold":null,"contrast":null,"saturation":null,"colortone":null},"ability":{"sharpness_strength":{"min":null,"max":null,"step":null},"sharpness_fineness":{"min":null,"max":null,"step":null},"sharpness_threshold":{"min":null,"max":null,"step":null},"contrast":{"min":null,"max":null,"step":null},"saturation":{"min":null,"max":null,"step":null},"colortone":{"min":null,"max":null,"step":null}}},"picturestyle_portrait":{"value":{"sharpness_strength":null,"sharpness_fineness":null,"sharpness_threshold":null,"contrast":null,"saturation":null,"colortone":null},"ability":{"sharpness_strength":{"min":null,"max":null,"step":null},"sharpness_fineness":{"min":null,"max":null,"step":null},"sharpness_threshold":{"min":null,"max":null,"step":null},"contrast":{"min":null,"max":null,"step":null},"saturation":{"min":null,"max":null,"step":null},"colortone":{"min":null,"max":null,"step":null}}},"picturestyle_landscape":{"value":{"sharpness_strength":null,"sharpness_fineness":null,"sharpness_threshold":null,"contrast":null,"saturation":null,"colortone":null},"ability":{"sharpness_strength":{"min":null,"max":null,"step":null},"sharpness_fineness":{"min":null,"max":null,"step":null},"sharpness_threshold":{"min":null,"max":null,"step":null},"contrast":{"min":null,"max":null,"step":null},"saturation":{"min":null,"max":null,"step":null},"colortone":{"min":null,"max":null,"step":null}}},"picturestyle_finedetail":{"value":{"sharpness_strength":null,"sharpness_fineness":null,"sharpness_threshold":null,"contrast":null,"saturation":null,"colortone":null},"ability":{"sharpness_strength":{"min":null,"max":null,"step":null},"sharpness_fineness":{"min":null,"max":null,"step":null},"sharpness_threshold":{"min":null,"max":null,"step":null},"contrast":{"min":null,"max":null,"step":null},"saturation":{"min":null,"max":null,"step":null},"colortone":{"min":null,"max":null,"step":null}}},"picturestyle_neutral":{"value":{"sharpness_strength":null,"sharpness_fineness":null,"sharpness_threshold":null,"contrast":null,"saturation":null,"colortone":null},"ability":{"sharpness_strength":{"min":null,"max":null,"step":null},"sharpness_fineness":{"min":null,"max":null,"step":null},"sharpness_threshold":{"min":null,"max":null,"step":null},"contrast":{"min":null,"max":null,"step":null},"saturation":{"min":null,"max":null,"step":null},"colortone":{"min":null,"max":null,"step":null}}},"picturestyle_faithful":{"value":{"sharpness_strength":null,"sharpness_fineness":null,"sharpness_threshold":null,"contrast":null,"saturation":null,"colortone":null},"ability":{"sharpness_strength":{"min":null,"max":null,"step":null},"sharpness_fineness":{"min":null,"max":null,"step":null},"sharpness_threshold":{"min":null,"max":null,"step":null},"contrast":{"min":null,"max":null,"step":null},"saturation":{"min":null,"max":null,"step":null},"colortone":{"min":null,"max":null,"step":null}}},"picturestyle_monochrome":{"value":{"sharpness_strength":null,"sharpness_fineness":null,"sharpness_threshold":null,"contrast":null,"filtereffect":"","toningeffect":""},"ability":{"sharpness_strength":{"min":null,"max":null,"step":null},"sharpness_fineness":{"min":null,"max":null,"step":null},"sharpness_threshold":{"min":null,"max":null,"step":null},"contrast":{"min":null,"max":null,"step":null},"filtereffect":[],"toningeffect":[]}},"picturestyle_userdef1":{"value":{"basepicturestyle":"","sharpness_strength":null,"sharpness_fineness":null,"sharpness_threshold":null,"contrast":null,"saturation":null,"colortone":null},"ability":{"basepicturestyle":[],"sharpness_strength":{"min":null,"max":null,"step":null},"sharpness_fineness":{"min":null,"max":null,"step":null},"sharpness_threshold":{"min":null,"max":null,"step":null},"contrast":{"min":null,"max":null,"step":null},"saturation":{"min":null,"max":null,"step":null},"colortone":{"min":null,"max":null,"step":null}}},"picturestyle_userdef2":{"value":{"basepicturestyle":"","sharpness_strength":null,"sharpness_fineness":null,"sharpness_threshold":null,"contrast":null,"saturation":null,"colortone":null},"ability":{"basepicturestyle":[],"sharpness_strength":{"min":null,"max":null,"step":null},"sharpness_fineness":{"min":null,"max":null,"step":null},"sharpness_threshold":{"min":null,"max":null,"step":null},"contrast":{"min":null,"max":null,"step":null},"saturation":{"min":null,"max":null,"step":null},"colortone":{"min":null,"max":null,"step":null}}},"picturestyle_userdef3":{"value":{"basepicturestyle":"","sharpness_strength":null,"sharpness_fineness":null,"sharpness_threshold":null,"contrast":null,"saturation":null,"colortone":null},"ability":{"basepicturestyle":[],"sharpness_strength":{"min":null,"max":null,"step":null},"sharpness_fineness":{"min":null,"max":null,"step":null},"sharpness_threshold":{"min":null,"max":null,"step":null},"contrast":{"min":null,"max":null,"step":null},"saturation":{"min":null,"max":null,"step":null},"colortone":{"min":null,"max":null,"step":null}}},"picturestyle_userdef1_basepicturestyle":{"value":"","ability":[]},"picturestyle_userdef2_basepicturestyle":{"value":"","ability":[]},"picturestyle_userdef3_basepicturestyle":{"value":"","ability":[]},"moviequality":{"value":"","ability":[]},"highframerate":{"value":"","ability":[]},"soundrecording":{"value":"","ability":[]},"soundrecording_level":{"value":null,"ability":{"min":null,"max":null,"step":null}},"soundrecording_windfilter":{"value":"","ability":[]},"soundrecording_attenuator":{"value":"","ability":[]}}
+2024-03-18 03:08:29,784 - ugokukun.keigan_wrapper - INFO - Initialized Keigan motor at: 
+2024-03-18 03:08:29,784 - ugokukun.keigan_wrapper - INFO -   - /dev/ttyUSB0
+2024-03-18 03:08:29,785 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi
+2024-03-18 03:08:29,824 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:08:29,825 - ugokukun.cannon_wrapper - INFO -   - Connection established
+2024-03-18 03:08:29,826 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/deviceinformation
+2024-03-18 03:08:29,837 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:08:29,837 - ugokukun.cannon_wrapper - INFO -   - Acquired device information
+2024-03-18 03:08:29,838 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/settings
+2024-03-18 03:08:29,860 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:08:29,861 - ugokukun.cannon_wrapper - INFO -   - Current shooting parameters: {"shootingmodedial":{"value":"m"},"av":{"value":"f10","ability":["f2.8","f3.2","f3.5","f4.0","f4.5","f5.0","f5.6","f6.3","f7.1","f8.0","f9.0","f10","f11","f13","f14","f16","f18","f20","f22"]},"tv":{"value":"5\"","ability":["bulb","30\"","25\"","20\"","15\"","13\"","10\"","8\"","6\"","5\"","4\"","3\"2","2\"5","2\"","1\"6","1\"3","1\"","0\"8","0\"6","0\"5","0\"4","0\"3","1\/4","1\/5","1\/6","1\/8","1\/10","1\/13","1\/15","1\/20","1\/25","1\/30","1\/40","1\/50","1\/60","1\/80","1\/100","1\/125","1\/160","1\/200","1\/250","1\/320","1\/400","1\/500","1\/640","1\/800","1\/1000","1\/1250","1\/1600","1\/2000","1\/2500","1\/3200","1\/4000"]},"iso":{"value":"auto","ability":["auto","100","125","160","200","250","320","400","500","640","800","1000","1250","1600","2000","2500","3200","4000","5000","6400","8000","10000","12800"]},"exposure":{"value":"-0_2\/3","ability":["-3.0","-2_2\/3","-2_1\/3","-2.0","-1_2\/3","-1_1\/3","-1.0","-0_2\/3","-0_1\/3","+0.0","+0_1\/3","+0_2\/3","+1.0","+1_1\/3","+1_2\/3","+2.0","+2_1\/3","+2_2\/3","+3.0"]},"wb":{"value":"auto","ability":["auto","awbwhite","daylight","shade","cloudy","tungsten","whitefluorescent","flash","custom","colortemp"]},"colortemperature":{"value":7200,"ability":{"min":2500,"max":10000,"step":100}},"afoperation":{"value":"manual"},"afmethod":{"value":"face+tracking","ability":["face+tracking","spot","1point","zone"]},"stillimagequality":{"value":{"raw":"none","jpeg":"large_fine"},"ability":{"raw":["none","raw","craw"],"jpeg":["none","large_fine","large_normal","medium_fine","medium_normal","small1_fine","small1_normal","small2"]}},"stillimageaspectratio":{"value":"3:2","ability":["3:2","4:3","16:9","1:1"]},"flash":{"value":"on","ability":["on","off"]},"metering":{"value":"evaluative","ability":["evaluative","partial","spot","center_weighted_average"]},"drive":{"value":"single","ability":["single","continuous","self_10sec","self_2sec","self_continuous"]},"aeb":{"value":"+0.0","ability":["+0.0","+0_1\/3","+0_2\/3","+1.0","+1_1\/3","+1_2\/3","+2.0"]},"wbshift":{"value":{"ba":0,"mg":0},"ability":{"ba":{"min":-9,"max":9,"step":1},"mg":{"min":-9,"max":9,"step":1}}},"wbbracket":{"value":"0","ability":["0","ba1","ba2","ba3","mg1","mg2","mg3"]},"colorspace":{"value":"srgb","ability":["srgb","adobe_rgb"]},"picturestyle":{"value":"auto","ability":["auto","standard","portrait","landscape","finedetail","neutral","faithful","monochrome","userdef1","userdef2","userdef3"]},"picturestyle_auto":{"value":{"sharpness_strength":4,"sharpness_fineness":2,"sharpness_threshold":4,"contrast":0,"saturation":0,"colortone":0},"ability":{"sharpness_strength":{"min":0,"max":7,"step":1},"sharpness_fineness":{"min":1,"max":5,"step":1},"sharpness_threshold":{"min":1,"max":5,"step":1},"contrast":{"min":-4,"max":4,"step":1},"saturation":{"min":-4,"max":4,"step":1},"colortone":{"min":-4,"max":4,"step":1}}},"picturestyle_standard":{"value":{"sharpness_strength":4,"sharpness_fineness":2,"sharpness_threshold":4,"contrast":0,"saturation":0,"colortone":0},"ability":{"sharpness_strength":{"min":0,"max":7,"step":1},"sharpness_fineness":{"min":1,"max":5,"step":1},"sharpness_threshold":{"min":1,"max":5,"step":1},"contrast":{"min":-4,"max":4,"step":1},"saturation":{"min":-4,"max":4,"step":1},"colortone":{"min":-4,"max":4,"step":1}}},"picturestyle_portrait":{"value":{"sharpness_strength":3,"sharpness_fineness":2,"sharpness_threshold":4,"contrast":0,"saturation":0,"colortone":0},"ability":{"sharpness_strength":{"min":0,"max":7,"step":1},"sharpness_fineness":{"min":1,"max":5,"step":1},"sharpness_threshold":{"min":1,"max":5,"step":1},"contrast":{"min":-4,"max":4,"step":1},"saturation":{"min":-4,"max":4,"step":1},"colortone":{"min":-4,"max":4,"step":1}}},"picturestyle_landscape":{"value":{"sharpness_strength":5,"sharpness_fineness":2,"sharpness_threshold":4,"contrast":0,"saturation":0,"colortone":0},"ability":{"sharpness_strength":{"min":0,"max":7,"step":1},"sharpness_fineness":{"min":1,"max":5,"step":1},"sharpness_threshold":{"min":1,"max":5,"step":1},"contrast":{"min":-4,"max":4,"step":1},"saturation":{"min":-4,"max":4,"step":1},"colortone":{"min":-4,"max":4,"step":1}}},"picturestyle_finedetail":{"value":{"sharpness_strength":4,"sharpness_fineness":1,"sharpness_threshold":1,"contrast":0,"saturation":0,"colortone":0},"ability":{"sharpness_strength":{"min":0,"max":7,"step":1},"sharpness_fineness":{"min":1,"max":5,"step":1},"sharpness_threshold":{"min":1,"max":5,"step":1},"contrast":{"min":-4,"max":4,"step":1},"saturation":{"min":-4,"max":4,"step":1},"colortone":{"min":-4,"max":4,"step":1}}},"picturestyle_neutral":{"value":{"sharpness_strength":0,"sharpness_fineness":2,"sharpness_threshold":2,"contrast":0,"saturation":0,"colortone":0},"ability":{"sharpness_strength":{"min":0,"max":7,"step":1},"sharpness_fineness":{"min":1,"max":5,"step":1},"sharpness_threshold":{"min":1,"max":5,"step":1},"contrast":{"min":-4,"max":4,"step":1},"saturation":{"min":-4,"max":4,"step":1},"colortone":{"min":-4,"max":4,"step":1}}},"picturestyle_faithful":{"value":{"sharpness_strength":0,"sharpness_fineness":2,"sharpness_threshold":2,"contrast":0,"saturation":0,"colortone":0},"ability":{"sharpness_strength":{"min":0,"max":7,"step":1},"sharpness_fineness":{"min":1,"max":5,"step":1},"sharpness_threshold":{"min":1,"max":5,"step":1},"contrast":{"min":-4,"max":4,"step":1},"saturation":{"min":-4,"max":4,"step":1},"colortone":{"min":-4,"max":4,"step":1}}},"picturestyle_monochrome":{"value":{"sharpness_strength":4,"sharpness_fineness":2,"sharpness_threshold":4,"contrast":0,"filtereffect":"none","toningeffect":"none"},"ability":{"sharpness_strength":{"min":0,"max":7,"step":1},"sharpness_fineness":{"min":1,"max":5,"step":1},"sharpness_threshold":{"min":1,"max":5,"step":1},"contrast":{"min":-4,"max":4,"step":1},"filtereffect":["none","yellow","orange","red","green"],"toningeffect":["none","sepia","blue","purple","green"]}},"picturestyle_userdef1":{"value":{"basepicturestyle":"auto","sharpness_strength":4,"sharpness_fineness":2,"sharpness_threshold":4,"contrast":0,"saturation":0,"colortone":0},"ability":{"basepicturestyle":[],"sharpness_strength":{"min":0,"max":7,"step":1},"sharpness_fineness":{"min":1,"max":5,"step":1},"sharpness_threshold":{"min":1,"max":5,"step":1},"contrast":{"min":-4,"max":4,"step":1},"saturation":{"min":-4,"max":4,"step":1},"colortone":{"min":-4,"max":4,"step":1}}},"picturestyle_userdef2":{"value":{"basepicturestyle":"auto","sharpness_strength":4,"sharpness_fineness":2,"sharpness_threshold":4,"contrast":0,"saturation":0,"colortone":0},"ability":{"basepicturestyle":[],"sharpness_strength":{"min":0,"max":7,"step":1},"sharpness_fineness":{"min":1,"max":5,"step":1},"sharpness_threshold":{"min":1,"max":5,"step":1},"contrast":{"min":-4,"max":4,"step":1},"saturation":{"min":-4,"max":4,"step":1},"colortone":{"min":-4,"max":4,"step":1}}},"picturestyle_userdef3":{"value":{"basepicturestyle":"auto","sharpness_strength":4,"sharpness_fineness":2,"sharpness_threshold":4,"contrast":0,"saturation":0,"colortone":0},"ability":{"basepicturestyle":[],"sharpness_strength":{"min":0,"max":7,"step":1},"sharpness_fineness":{"min":1,"max":5,"step":1},"sharpness_threshold":{"min":1,"max":5,"step":1},"contrast":{"min":-4,"max":4,"step":1},"saturation":{"min":-4,"max":4,"step":1},"colortone":{"min":-4,"max":4,"step":1}}},"picturestyle_userdef1_basepicturestyle":{"value":"auto","ability":["auto","standard","portrait","landscape","finedetail","neutral","faithful","monochrome"]},"picturestyle_userdef2_basepicturestyle":{"value":"auto","ability":["auto","standard","portrait","landscape","finedetail","neutral","faithful","monochrome"]},"picturestyle_userdef3_basepicturestyle":{"value":"auto","ability":["auto","standard","portrait","landscape","finedetail","neutral","faithful","monochrome"]},"moviequality":{"value":"","ability":[]},"highframerate":{"value":"","ability":[]},"soundrecording":{"value":"","ability":[]},"soundrecording_level":{"value":null,"ability":{"min":null,"max":null,"step":null}},"soundrecording_windfilter":{"value":"","ability":[]},"soundrecording_attenuator":{"value":"","ability":[]}}
+2024-03-18 03:08:29,862 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/functions/autopoweroff
+2024-03-18 03:08:29,885 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:08:29,886 - ugokukun.cannon_wrapper - INFO -   - Auto power off is disabled: {"value":"disable"}
+2024-03-18 03:08:29,887 - ugokukun.cannon_wrapper - INFO - Connected to Cannon camera: 
+2024-03-18 03:08:29,887 - ugokukun.cannon_wrapper - INFO -   - Canon EOS R100
+2024-03-18 03:08:29,888 - ugokukun.cannon_wrapper - INFO -   - 192.168.11.152:8080
+2024-03-18 03:08:54,022 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_0 , action: shutter
+2024-03-18 03:08:54,023 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:08:55,231 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:08:55,232 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:08:55,233 - ugokukun.ugoku_kun - INFO - Executing task id: cw_0 , action: cw
+2024-03-18 03:08:55,261 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:08:55,262 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_5 , action: shutter
+2024-03-18 03:08:55,263 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:08:55,278 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:08:55,794 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:08:56,306 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:08:56,816 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:08:57,331 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:08:57,844 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:08:58,355 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:08:58,869 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:08:59,393 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:08:59,914 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:00,426 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:00,952 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:01,942 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:09:01,943 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:09:01,944 - ugokukun.ugoku_kun - INFO - Executing task id: cw_5 , action: cw
+2024-03-18 03:09:01,972 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:09:01,974 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_10 , action: shutter
+2024-03-18 03:09:01,974 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:09:01,985 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:02,498 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:03,010 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:03,521 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:04,034 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:04,598 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:05,108 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:05,619 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:06,130 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:06,641 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:07,155 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:07,670 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:08,631 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:09:08,631 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:09:08,632 - ugokukun.ugoku_kun - INFO - Executing task id: cw_10 , action: cw
+2024-03-18 03:09:08,661 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:09:08,662 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_15 , action: shutter
+2024-03-18 03:09:08,662 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:09:08,674 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:09,189 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:09,707 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:10,222 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:10,735 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:11,250 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:11,763 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:12,274 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:12,792 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:13,319 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:13,840 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:14,354 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:15,406 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:09:15,406 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:09:15,407 - ugokukun.ugoku_kun - INFO - Executing task id: cw_15 , action: cw
+2024-03-18 03:09:15,436 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:09:15,437 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_20 , action: shutter
+2024-03-18 03:09:15,437 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:09:15,450 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:15,965 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:16,479 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:16,996 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:17,525 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:18,037 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:18,563 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:19,079 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:19,593 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:20,106 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:20,622 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:21,134 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:22,061 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:09:22,061 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:09:22,062 - ugokukun.ugoku_kun - INFO - Executing task id: cw_20 , action: cw
+2024-03-18 03:09:22,091 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:09:22,091 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_25 , action: shutter
+2024-03-18 03:09:22,092 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:09:22,104 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:22,616 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:23,129 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:23,663 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:24,191 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:24,704 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:25,217 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:25,730 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:26,245 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:26,756 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:27,280 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:27,791 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:28,820 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:09:28,821 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:09:28,822 - ugokukun.ugoku_kun - INFO - Executing task id: cw_25 , action: cw
+2024-03-18 03:09:28,850 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:09:28,851 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_30 , action: shutter
+2024-03-18 03:09:28,852 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:09:28,863 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:29,376 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:29,932 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:30,445 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:30,964 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:31,476 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:31,988 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:32,518 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:33,030 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:33,549 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:34,073 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:35,423 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:09:35,423 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:09:35,424 - ugokukun.ugoku_kun - INFO - Executing task id: cw_30 , action: cw
+2024-03-18 03:09:35,453 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:09:35,453 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_35 , action: shutter
+2024-03-18 03:09:35,454 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:09:35,465 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:35,981 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:36,494 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:37,006 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:37,519 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:38,032 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:38,544 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:40,068 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:40,596 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:41,111 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:42,116 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:09:42,116 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:09:42,117 - ugokukun.ugoku_kun - INFO - Executing task id: cw_35 , action: cw
+2024-03-18 03:09:42,146 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:09:42,147 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_40 , action: shutter
+2024-03-18 03:09:42,147 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:09:42,159 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:42,670 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:43,182 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:43,704 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:44,217 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:44,732 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:45,250 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:45,769 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:46,296 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:46,812 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:47,330 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:47,847 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:48,891 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:09:48,892 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:09:48,893 - ugokukun.ugoku_kun - INFO - Executing task id: cw_40 , action: cw
+2024-03-18 03:09:48,921 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:09:48,922 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_45 , action: shutter
+2024-03-18 03:09:48,923 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:09:48,933 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:49,448 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:49,961 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:50,472 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:50,982 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:51,494 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:52,006 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:52,519 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:53,029 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:53,542 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:54,098 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:54,617 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:55,514 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:09:55,515 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:09:55,516 - ugokukun.ugoku_kun - INFO - Executing task id: cw_45 , action: cw
+2024-03-18 03:09:55,544 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:09:55,545 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_50 , action: shutter
+2024-03-18 03:09:55,545 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:09:55,555 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:56,067 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:56,623 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:57,135 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:57,659 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:58,181 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:58,704 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:59,218 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:09:59,728 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:00,243 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:00,756 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:01,268 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:02,210 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:10:02,211 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:10:02,212 - ugokukun.ugoku_kun - INFO - Executing task id: cw_50 , action: cw
+2024-03-18 03:10:02,240 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:10:02,241 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_55 , action: shutter
+2024-03-18 03:10:02,242 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:10:02,253 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:02,766 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:03,281 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:03,802 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:04,323 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:04,835 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:05,346 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:05,859 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:06,370 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:06,885 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:07,402 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:07,914 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:08,910 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:10:08,910 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:10:08,911 - ugokukun.ugoku_kun - INFO - Executing task id: cw_55 , action: cw
+2024-03-18 03:10:08,939 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:10:08,940 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_60 , action: shutter
+2024-03-18 03:10:08,941 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:10:08,961 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:09,473 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:09,986 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:10,498 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:11,012 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:11,524 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:12,034 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:12,545 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:13,070 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:13,584 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:14,103 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:14,621 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:15,592 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:10:15,593 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:10:15,593 - ugokukun.ugoku_kun - INFO - Executing task id: cw_60 , action: cw
+2024-03-18 03:10:15,622 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:10:15,623 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_65 , action: shutter
+2024-03-18 03:10:15,624 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:10:15,633 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:16,150 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:16,662 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:17,176 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:17,689 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:18,204 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:18,715 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:19,233 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:19,749 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:20,264 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:20,781 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:21,293 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:22,377 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:10:22,378 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:10:22,379 - ugokukun.ugoku_kun - INFO - Executing task id: cw_65 , action: cw
+2024-03-18 03:10:22,407 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:10:22,408 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_70 , action: shutter
+2024-03-18 03:10:22,409 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:10:22,420 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:22,933 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:23,444 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:23,957 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:24,470 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:24,981 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:25,492 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:26,004 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:26,515 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:27,028 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:27,543 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:28,060 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:28,971 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:10:28,972 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:10:28,972 - ugokukun.ugoku_kun - INFO - Executing task id: cw_70 , action: cw
+2024-03-18 03:10:29,001 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:10:29,002 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_75 , action: shutter
+2024-03-18 03:10:29,002 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:10:29,017 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:29,533 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:30,044 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:30,557 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:31,069 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:31,580 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:32,094 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:32,605 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:33,124 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:33,636 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:34,148 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:34,662 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:35,689 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:10:35,689 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:10:35,690 - ugokukun.ugoku_kun - INFO - Executing task id: cw_75 , action: cw
+2024-03-18 03:10:35,718 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:10:35,719 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_80 , action: shutter
+2024-03-18 03:10:35,720 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:10:35,730 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:36,243 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:36,756 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:37,268 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:37,779 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:38,292 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:38,807 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:39,320 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:39,834 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:40,344 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:40,861 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:41,386 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:42,445 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:10:42,446 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:10:42,447 - ugokukun.ugoku_kun - INFO - Executing task id: cw_80 , action: cw
+2024-03-18 03:10:42,475 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:10:42,476 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_85 , action: shutter
+2024-03-18 03:10:42,477 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:10:42,489 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:43,010 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:43,523 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:44,047 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:44,565 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:45,078 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:45,592 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:46,108 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:46,619 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:47,132 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:47,648 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:48,160 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:49,082 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:10:49,083 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:10:49,084 - ugokukun.ugoku_kun - INFO - Executing task id: cw_85 , action: cw
+2024-03-18 03:10:49,112 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:10:49,113 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_90 , action: shutter
+2024-03-18 03:10:49,114 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:10:49,124 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:49,636 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:50,148 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:50,658 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:51,169 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:51,681 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:52,192 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:52,703 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:53,214 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:53,726 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:54,348 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:54,860 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:55,861 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:10:55,862 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:10:55,863 - ugokukun.ugoku_kun - INFO - Executing task id: cw_90 , action: cw
+2024-03-18 03:10:55,891 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:10:55,892 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_95 , action: shutter
+2024-03-18 03:10:55,892 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:10:55,903 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:56,422 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:56,934 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:57,444 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:57,955 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:58,468 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:58,980 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:10:59,497 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:00,009 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:00,521 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:01,034 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:01,556 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:02,516 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:11:02,516 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:11:02,517 - ugokukun.ugoku_kun - INFO - Executing task id: cw_95 , action: cw
+2024-03-18 03:11:02,546 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:11:02,547 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_100 , action: shutter
+2024-03-18 03:11:02,548 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:11:02,561 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:03,075 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:03,588 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:04,101 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:04,615 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:05,126 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:05,638 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:06,148 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:06,661 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:07,172 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:07,700 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:08,220 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:09,277 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:11:09,277 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:11:09,278 - ugokukun.ugoku_kun - INFO - Executing task id: cw_100 , action: cw
+2024-03-18 03:11:09,306 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:11:09,307 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_105 , action: shutter
+2024-03-18 03:11:09,308 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:11:09,323 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:09,836 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:10,364 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:10,882 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:11,394 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:11,907 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:12,430 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:12,942 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:13,459 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:13,971 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:14,484 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:14,995 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:16,035 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:11:16,036 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:11:16,036 - ugokukun.ugoku_kun - INFO - Executing task id: cw_105 , action: cw
+2024-03-18 03:11:16,065 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:11:16,066 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_110 , action: shutter
+2024-03-18 03:11:16,066 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:11:16,079 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:16,592 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:17,105 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:17,619 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:18,132 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:18,642 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:19,156 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:19,669 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:20,211 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:20,723 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:21,242 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:21,752 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:22,650 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:11:22,651 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:11:22,652 - ugokukun.ugoku_kun - INFO - Executing task id: cw_110 , action: cw
+2024-03-18 03:11:22,680 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:11:22,681 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_115 , action: shutter
+2024-03-18 03:11:22,682 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:11:22,691 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:23,205 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:23,719 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:24,238 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:24,750 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:25,262 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:25,777 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:26,289 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:26,804 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:27,321 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:27,849 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:28,362 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:29,348 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:11:29,349 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:11:29,350 - ugokukun.ugoku_kun - INFO - Executing task id: cw_115 , action: cw
+2024-03-18 03:11:29,379 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:11:29,380 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_120 , action: shutter
+2024-03-18 03:11:29,380 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:11:29,390 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:29,903 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:30,420 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:30,932 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:31,469 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:31,984 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:32,498 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:33,009 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:33,523 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:34,034 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:34,546 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:35,058 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:36,039 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:11:36,039 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:11:36,040 - ugokukun.ugoku_kun - INFO - Executing task id: cw_120 , action: cw
+2024-03-18 03:11:36,069 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:11:36,070 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_125 , action: shutter
+2024-03-18 03:11:36,071 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:11:36,080 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:36,594 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:37,104 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:37,628 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:38,141 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:38,658 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:39,174 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:39,689 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:40,201 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:40,715 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:41,229 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:41,741 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:42,729 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:11:42,730 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:11:42,730 - ugokukun.ugoku_kun - INFO - Executing task id: cw_125 , action: cw
+2024-03-18 03:11:42,759 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:11:42,760 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_130 , action: shutter
+2024-03-18 03:11:42,761 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:11:42,773 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:43,293 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:43,806 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:44,320 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:44,834 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:45,348 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:45,860 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:46,370 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:46,880 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:47,393 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:47,909 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:48,422 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:49,388 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:11:49,389 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:11:49,390 - ugokukun.ugoku_kun - INFO - Executing task id: cw_130 , action: cw
+2024-03-18 03:11:49,418 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:11:49,419 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_135 , action: shutter
+2024-03-18 03:11:49,420 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:11:49,432 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:49,944 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:50,455 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:50,965 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:51,478 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:52,020 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:52,540 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:53,051 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:53,562 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:54,150 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:54,666 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:55,179 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:56,114 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:11:56,114 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:11:56,115 - ugokukun.ugoku_kun - INFO - Executing task id: cw_135 , action: cw
+2024-03-18 03:11:56,144 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:11:56,144 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_140 , action: shutter
+2024-03-18 03:11:56,145 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:11:56,157 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:56,670 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:57,182 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:57,699 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:58,210 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:58,723 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:59,234 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:11:59,750 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:00,269 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:00,784 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:01,297 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:01,811 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:02,833 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:12:02,834 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:12:02,835 - ugokukun.ugoku_kun - INFO - Executing task id: cw_140 , action: cw
+2024-03-18 03:12:02,863 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:12:02,864 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_145 , action: shutter
+2024-03-18 03:12:02,865 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:12:02,874 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:03,388 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:03,899 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:04,414 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:04,930 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:05,442 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:05,974 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:06,490 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:07,003 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:07,517 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:08,031 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:08,542 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:09,591 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:12:09,591 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:12:09,592 - ugokukun.ugoku_kun - INFO - Executing task id: cw_145 , action: cw
+2024-03-18 03:12:09,621 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:12:09,622 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_150 , action: shutter
+2024-03-18 03:12:09,622 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:12:09,636 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:10,174 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:10,688 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:11,203 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:11,716 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:12,233 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:12,743 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:13,256 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:13,770 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:14,282 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:14,801 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:15,314 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:16,245 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:12:16,246 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:12:16,247 - ugokukun.ugoku_kun - INFO - Executing task id: cw_150 , action: cw
+2024-03-18 03:12:16,275 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:12:16,276 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_155 , action: shutter
+2024-03-18 03:12:16,277 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:12:16,289 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:16,804 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:17,315 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:17,834 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:18,345 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:18,868 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:19,391 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:19,923 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:20,438 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:20,958 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:21,473 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:21,998 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:22,904 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:12:22,904 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:12:22,905 - ugokukun.ugoku_kun - INFO - Executing task id: cw_155 , action: cw
+2024-03-18 03:12:22,933 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:12:22,934 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_160 , action: shutter
+2024-03-18 03:12:22,935 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:12:22,947 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:23,463 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:23,989 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:24,509 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:25,024 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:25,541 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:26,052 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:26,568 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:27,081 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:27,601 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:28,120 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:30,173 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:12:30,174 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:12:30,175 - ugokukun.ugoku_kun - INFO - Executing task id: cw_160 , action: cw
+2024-03-18 03:12:30,203 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:12:30,204 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_165 , action: shutter
+2024-03-18 03:12:30,205 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:12:30,215 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:30,731 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:31,244 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:31,771 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:32,291 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:32,807 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:33,322 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:33,838 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:34,352 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:34,866 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:35,379 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:35,892 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:36,831 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:12:36,831 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:12:36,832 - ugokukun.ugoku_kun - INFO - Executing task id: cw_165 , action: cw
+2024-03-18 03:12:36,860 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:12:36,861 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_170 , action: shutter
+2024-03-18 03:12:36,862 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:12:36,873 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:37,385 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:37,901 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:38,414 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:38,939 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:39,462 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:39,977 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:40,490 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:41,002 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:41,513 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:42,029 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:42,550 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:43,506 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:12:43,507 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:12:43,507 - ugokukun.ugoku_kun - INFO - Executing task id: cw_170 , action: cw
+2024-03-18 03:12:43,536 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:12:43,537 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_175 , action: shutter
+2024-03-18 03:12:43,537 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:12:43,556 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:44,071 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:44,588 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:45,099 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:45,614 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:46,131 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:46,645 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:47,156 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:47,669 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:48,179 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:48,692 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:49,204 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:50,203 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:12:50,203 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:12:50,204 - ugokukun.ugoku_kun - INFO - Executing task id: cw_175 , action: cw
+2024-03-18 03:12:50,233 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:12:50,234 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_180 , action: shutter
+2024-03-18 03:12:50,234 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:12:50,246 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:50,760 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:51,276 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:51,787 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:52,299 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:52,825 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:53,340 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:53,851 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:54,405 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:54,921 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:55,437 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:55,952 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:56,901 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:12:56,902 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:12:56,902 - ugokukun.ugoku_kun - INFO - Executing task id: cw_180 , action: cw
+2024-03-18 03:12:56,931 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:12:56,932 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_185 , action: shutter
+2024-03-18 03:12:56,932 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:12:56,945 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:57,456 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:57,970 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:58,481 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:58,993 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:12:59,504 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:00,021 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:00,532 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:01,056 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:01,578 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:02,096 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:02,609 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:03,583 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:13:03,584 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:13:03,585 - ugokukun.ugoku_kun - INFO - Executing task id: cw_185 , action: cw
+2024-03-18 03:13:03,613 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:13:03,614 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_190 , action: shutter
+2024-03-18 03:13:03,615 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:13:03,626 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:04,145 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:04,659 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:05,176 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:05,694 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:06,205 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:06,718 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:07,229 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:07,740 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:08,251 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:08,768 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:09,279 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:10,418 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:13:10,419 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:13:10,420 - ugokukun.ugoku_kun - INFO - Executing task id: cw_190 , action: cw
+2024-03-18 03:13:10,449 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:13:10,449 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_195 , action: shutter
+2024-03-18 03:13:10,450 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:13:10,463 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:10,975 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:11,487 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:11,998 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:12,513 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:13,040 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:13,558 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:14,075 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:14,595 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:15,109 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:15,626 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:16,939 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:13:16,939 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:13:16,940 - ugokukun.ugoku_kun - INFO - Executing task id: cw_195 , action: cw
+2024-03-18 03:13:16,969 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:13:16,970 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_200 , action: shutter
+2024-03-18 03:13:16,971 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:13:16,981 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:17,492 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:18,005 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:18,516 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:19,027 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:19,539 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:20,050 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:20,562 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:21,074 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:21,585 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:22,098 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:22,611 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:23,626 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:13:23,627 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:13:23,628 - ugokukun.ugoku_kun - INFO - Executing task id: cw_200 , action: cw
+2024-03-18 03:13:23,656 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:13:23,659 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_205 , action: shutter
+2024-03-18 03:13:23,661 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:13:23,675 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:24,185 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:24,698 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:25,227 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:25,744 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:26,261 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:26,774 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:27,290 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:27,802 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:28,314 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:28,831 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:29,345 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:30,303 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:13:30,304 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:13:30,305 - ugokukun.ugoku_kun - INFO - Executing task id: cw_205 , action: cw
+2024-03-18 03:13:30,333 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:13:30,335 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_210 , action: shutter
+2024-03-18 03:13:30,336 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:13:30,352 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:30,869 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:31,385 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:31,896 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:32,408 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:32,918 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:33,432 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:33,943 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:34,454 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:34,968 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:35,481 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:35,994 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:37,041 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:13:37,042 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:13:37,043 - ugokukun.ugoku_kun - INFO - Executing task id: cw_210 , action: cw
+2024-03-18 03:13:37,072 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:13:37,073 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_215 , action: shutter
+2024-03-18 03:13:37,073 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:13:37,086 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:37,600 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:38,113 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:38,639 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:39,159 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:39,674 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:40,187 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:40,700 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:41,237 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:41,749 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:42,262 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:42,775 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:43,697 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:13:43,698 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:13:43,699 - ugokukun.ugoku_kun - INFO - Executing task id: cw_215 , action: cw
+2024-03-18 03:13:43,728 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:13:43,729 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_220 , action: shutter
+2024-03-18 03:13:43,730 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:13:43,767 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:44,283 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:44,799 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:45,311 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:45,826 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:46,340 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:46,853 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:48,919 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:49,433 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:50,456 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:13:50,457 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:13:50,457 - ugokukun.ugoku_kun - INFO - Executing task id: cw_220 , action: cw
+2024-03-18 03:13:50,486 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:13:50,487 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_225 , action: shutter
+2024-03-18 03:13:50,487 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:13:50,497 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:51,013 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:51,523 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:52,034 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:52,547 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:53,064 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:53,578 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:54,207 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:54,726 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:55,240 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:55,755 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:57,071 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:13:57,071 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:13:57,072 - ugokukun.ugoku_kun - INFO - Executing task id: cw_225 , action: cw
+2024-03-18 03:13:57,101 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:13:57,102 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_230 , action: shutter
+2024-03-18 03:13:57,103 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:13:57,113 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:57,657 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:58,171 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:58,684 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:59,196 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:13:59,710 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:00,222 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:00,736 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:01,252 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:01,769 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:02,282 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:02,807 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:03,751 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:14:03,752 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:14:03,752 - ugokukun.ugoku_kun - INFO - Executing task id: cw_230 , action: cw
+2024-03-18 03:14:03,781 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:14:03,782 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_235 , action: shutter
+2024-03-18 03:14:03,783 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:14:03,793 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:04,306 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:04,821 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:05,332 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:05,842 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:06,354 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:06,865 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:07,378 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:07,890 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:08,401 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:08,916 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:09,428 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:10,448 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:14:10,448 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:14:10,449 - ugokukun.ugoku_kun - INFO - Executing task id: cw_235 , action: cw
+2024-03-18 03:14:10,477 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:14:10,478 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_240 , action: shutter
+2024-03-18 03:14:10,478 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:14:10,493 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:11,013 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:11,529 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:12,041 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:12,554 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:13,067 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:13,604 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:14,116 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:14,629 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:15,140 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:15,656 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:16,168 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:17,185 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:14:17,185 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:14:17,186 - ugokukun.ugoku_kun - INFO - Executing task id: cw_240 , action: cw
+2024-03-18 03:14:17,215 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:14:17,216 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_245 , action: shutter
+2024-03-18 03:14:17,219 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:14:17,233 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:17,757 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:18,280 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:18,795 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:19,308 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:19,822 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:20,333 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:20,844 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:21,358 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:21,872 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:22,383 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:22,901 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:23,838 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:14:23,839 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:14:23,840 - ugokukun.ugoku_kun - INFO - Executing task id: cw_245 , action: cw
+2024-03-18 03:14:23,868 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:14:23,869 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_250 , action: shutter
+2024-03-18 03:14:23,870 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:14:23,882 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:24,394 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:24,909 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:25,445 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:25,960 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:26,475 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:26,990 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:27,504 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:28,014 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:28,525 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:29,038 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:29,551 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:30,536 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:14:30,536 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:14:30,537 - ugokukun.ugoku_kun - INFO - Executing task id: cw_250 , action: cw
+2024-03-18 03:14:30,566 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:14:30,566 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_255 , action: shutter
+2024-03-18 03:14:30,567 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:14:30,577 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:31,090 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:31,602 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:32,148 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:32,660 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:33,172 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:33,686 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:34,197 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:34,710 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:35,222 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:35,734 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:36,245 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:37,253 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:14:37,253 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:14:37,254 - ugokukun.ugoku_kun - INFO - Executing task id: cw_255 , action: cw
+2024-03-18 03:14:37,282 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:14:37,283 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_260 , action: shutter
+2024-03-18 03:14:37,284 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:14:37,297 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:37,809 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:38,321 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:38,834 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:39,365 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:39,882 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:40,397 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:40,914 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:41,426 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:41,938 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:42,455 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:42,971 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:43,913 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:14:43,913 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:14:43,914 - ugokukun.ugoku_kun - INFO - Executing task id: cw_260 , action: cw
+2024-03-18 03:14:43,943 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:14:43,944 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_265 , action: shutter
+2024-03-18 03:14:43,944 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:14:43,954 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:44,495 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:45,011 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:45,524 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:46,033 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:46,546 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:47,058 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:47,573 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:48,085 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:48,598 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:49,111 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:49,625 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:50,668 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:14:50,668 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:14:50,669 - ugokukun.ugoku_kun - INFO - Executing task id: cw_265 , action: cw
+2024-03-18 03:14:50,698 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:14:50,698 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_270 , action: shutter
+2024-03-18 03:14:50,699 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:14:50,711 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:51,222 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:51,754 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:52,273 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:52,786 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:53,310 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:53,820 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:54,330 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:54,841 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:55,354 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:55,869 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:56,383 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:57,281 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:14:57,281 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:14:57,282 - ugokukun.ugoku_kun - INFO - Executing task id: cw_270 , action: cw
+2024-03-18 03:14:57,311 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:14:57,312 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_275 , action: shutter
+2024-03-18 03:14:57,312 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:14:57,324 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:57,840 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:58,353 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:58,866 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:59,382 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:14:59,895 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:00,406 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:00,920 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:01,431 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:01,941 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:02,472 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:02,984 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:03,981 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:15:03,981 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:15:03,982 - ugokukun.ugoku_kun - INFO - Executing task id: cw_275 , action: cw
+2024-03-18 03:15:04,011 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:15:04,012 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_280 , action: shutter
+2024-03-18 03:15:04,013 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:15:04,032 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:04,558 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:05,078 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:05,592 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:06,104 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:06,618 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:07,130 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:07,641 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:08,159 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:08,672 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:09,185 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:09,699 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:10,741 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:15:10,742 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:15:10,742 - ugokukun.ugoku_kun - INFO - Executing task id: cw_280 , action: cw
+2024-03-18 03:15:10,771 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:15:10,772 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_285 , action: shutter
+2024-03-18 03:15:10,772 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:15:10,782 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:11,295 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:11,810 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:12,322 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:12,834 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:13,344 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:13,855 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:14,365 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:14,877 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:15,389 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:15,902 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:16,414 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:17,397 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:15:17,397 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:15:17,398 - ugokukun.ugoku_kun - INFO - Executing task id: cw_285 , action: cw
+2024-03-18 03:15:17,427 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:15:17,428 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_290 , action: shutter
+2024-03-18 03:15:17,428 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:15:17,438 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:17,952 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:18,464 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:18,990 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:19,512 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:20,028 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:20,543 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:21,055 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:21,567 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:22,081 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:22,593 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:23,106 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:24,089 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:15:24,090 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:15:24,091 - ugokukun.ugoku_kun - INFO - Executing task id: cw_290 , action: cw
+2024-03-18 03:15:24,119 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:15:24,120 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_295 , action: shutter
+2024-03-18 03:15:24,121 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:15:24,134 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:24,649 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:25,160 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:25,671 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:26,183 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:26,693 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:27,208 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:27,719 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:28,229 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:28,741 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:29,256 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:29,768 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:30,810 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:15:30,810 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:15:30,811 - ugokukun.ugoku_kun - INFO - Executing task id: cw_295 , action: cw
+2024-03-18 03:15:30,840 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:15:30,841 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_300 , action: shutter
+2024-03-18 03:15:30,841 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:15:30,851 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:31,364 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:31,877 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:32,388 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:32,899 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:33,412 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:33,946 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:34,463 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:34,982 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:35,497 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:36,026 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:36,539 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:37,469 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:15:37,469 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:15:37,470 - ugokukun.ugoku_kun - INFO - Executing task id: cw_300 , action: cw
+2024-03-18 03:15:37,498 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:15:37,499 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_305 , action: shutter
+2024-03-18 03:15:37,500 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:15:37,511 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:38,022 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:38,532 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:39,045 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:39,558 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:40,068 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:40,580 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:41,092 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:41,604 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:42,115 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:42,628 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:43,142 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:44,150 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:15:44,150 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:15:44,151 - ugokukun.ugoku_kun - INFO - Executing task id: cw_305 , action: cw
+2024-03-18 03:15:44,180 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:15:44,181 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_310 , action: shutter
+2024-03-18 03:15:44,181 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:15:44,200 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:44,713 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:45,229 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:45,741 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:46,252 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:46,762 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:47,275 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:47,788 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:48,300 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:48,812 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:49,350 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:49,866 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:50,849 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:15:50,850 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:15:50,851 - ugokukun.ugoku_kun - INFO - Executing task id: cw_310 , action: cw
+2024-03-18 03:15:50,879 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:15:50,880 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_315 , action: shutter
+2024-03-18 03:15:50,881 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:15:50,890 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:51,400 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:51,911 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:52,425 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:52,938 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:53,449 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:53,960 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:54,508 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:55,018 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:55,532 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:56,059 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:56,581 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:57,553 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:15:57,554 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:15:57,554 - ugokukun.ugoku_kun - INFO - Executing task id: cw_315 , action: cw
+2024-03-18 03:15:57,583 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:15:57,584 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_320 , action: shutter
+2024-03-18 03:15:57,584 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:15:57,601 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:58,118 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:58,634 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:59,150 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:15:59,665 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:00,175 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:00,687 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:01,197 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:01,708 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:02,221 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:02,734 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:03,252 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:04,233 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:16:04,233 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:16:04,234 - ugokukun.ugoku_kun - INFO - Executing task id: cw_320 , action: cw
+2024-03-18 03:16:04,263 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:16:04,264 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_325 , action: shutter
+2024-03-18 03:16:04,264 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:16:04,278 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:04,791 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:05,303 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:05,815 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:06,328 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:06,841 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:07,352 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:07,865 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:08,377 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:08,892 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:09,409 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:09,926 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:10,951 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:16:10,952 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:16:10,952 - ugokukun.ugoku_kun - INFO - Executing task id: cw_325 , action: cw
+2024-03-18 03:16:10,981 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:16:10,982 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_330 , action: shutter
+2024-03-18 03:16:10,983 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:16:10,994 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:11,509 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:12,019 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:12,531 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:13,042 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:13,558 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:14,070 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:14,595 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:15,116 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:15,638 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:16,170 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:16,688 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:17,594 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:16:17,594 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:16:17,595 - ugokukun.ugoku_kun - INFO - Executing task id: cw_330 , action: cw
+2024-03-18 03:16:17,624 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:16:17,625 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_335 , action: shutter
+2024-03-18 03:16:17,625 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:16:17,642 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:18,155 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:18,676 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:19,215 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:19,727 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:20,240 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:20,754 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:21,268 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:21,781 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:22,294 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:22,806 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:23,316 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:24,366 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:16:24,367 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:16:24,368 - ugokukun.ugoku_kun - INFO - Executing task id: cw_335 , action: cw
+2024-03-18 03:16:24,396 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:16:24,397 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_340 , action: shutter
+2024-03-18 03:16:24,398 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:16:24,408 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:24,920 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:25,435 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:25,960 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:26,487 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:27,000 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:27,514 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:28,032 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:28,546 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:29,060 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:29,576 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:30,088 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:31,025 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:16:31,026 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:16:31,026 - ugokukun.ugoku_kun - INFO - Executing task id: cw_340 , action: cw
+2024-03-18 03:16:31,055 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:16:31,056 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_345 , action: shutter
+2024-03-18 03:16:31,056 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:16:31,096 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:31,609 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:32,122 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:32,638 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:33,150 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:33,664 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:34,175 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:34,688 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:35,201 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:35,711 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:36,224 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:36,739 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:37,709 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:16:37,710 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:16:37,711 - ugokukun.ugoku_kun - INFO - Executing task id: cw_345 , action: cw
+2024-03-18 03:16:37,739 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:16:37,740 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_350 , action: shutter
+2024-03-18 03:16:37,741 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:16:37,754 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:38,268 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:38,785 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:39,297 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:39,813 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:40,323 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:40,835 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:41,346 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:41,857 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:42,368 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:42,882 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:43,396 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:44,392 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:16:44,392 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:16:44,393 - ugokukun.ugoku_kun - INFO - Executing task id: cw_350 , action: cw
+2024-03-18 03:16:44,422 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:16:44,422 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_355 , action: shutter
+2024-03-18 03:16:44,423 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:16:44,435 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:44,963 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:45,473 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:45,989 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:46,500 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:47,012 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:47,525 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:48,037 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:48,550 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:49,062 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:49,578 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:50,090 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:51,112 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:16:51,112 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:16:51,113 - ugokukun.ugoku_kun - INFO - Executing task id: cw_355 , action: cw
+2024-03-18 03:16:51,142 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:16:51,143 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_360 , action: shutter
+2024-03-18 03:16:51,144 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:16:51,161 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:51,678 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:52,194 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:52,704 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:53,216 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:53,749 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:54,263 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:54,773 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:55,288 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:55,800 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:56,315 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:56,829 - ugokukun.cannon_wrapper - WARNING -   - Request failed, retrying: 503
+2024-03-18 03:16:57,808 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:16:57,808 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:16:57,809 - ugokukun.ugoku_kun - INFO - Executing task id: cw_360 , action: cw
+2024-03-18 03:16:57,837 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.

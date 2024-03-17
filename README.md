@@ -52,7 +52,39 @@ Kill any "smart" features on your router that automatically adjusts configuratio
 4. Run Jupyter Notebook.
 5. export log
 
-Think about errors(for overnight measurement)
+## Device List JSON
+
+All devices are identified by a unique ID. This ID is used to refer to the device in the task CSV.
+
+```json
+{
+  "cannon": {
+    "some_unique_camera_id": "ip_address:port"
+  },
+  "keigan": {
+    "some_unique_turntable_id": "ip_address:port"
+  }
+}
+```
+
+## Task CSV
+
+### Headers
+
+The csv file must have the following headers or it will raise an error.:
+
+- task_id (str): Unique ID of the task. Any Duplicate task_id will raise an error.
+- wait_time (float): Time to wait from previous task. In seconds.
+- target (str): The device to control. Must be a device ID defined in the device list JSON.
+- action (str): Depends on target. See below.
+- param (str): Depends on action. See below.
+- payload (str): Depends on action. See below.
+
+### Target == Cannon camera ID
+
+
+
+
 
 ## Limitations
 
