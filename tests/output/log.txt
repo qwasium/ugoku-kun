@@ -1609,3 +1609,441 @@
 2024-03-18 03:16:57,808 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
 2024-03-18 03:16:57,809 - ugokukun.ugoku_kun - INFO - Executing task id: cw_360 , action: cw
 2024-03-18 03:16:57,837 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:22:24,682 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_0 , action: shutter
+2024-03-18 03:22:24,683 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:22:24,805 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:22:24,805 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:22:27,809 - ugokukun.ugoku_kun - INFO - Executing task id: cw_0 , action: cw
+2024-03-18 03:22:27,837 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:22:30,838 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_5 , action: shutter
+2024-03-18 03:22:30,839 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:22:31,490 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:22:31,491 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:22:34,494 - ugokukun.ugoku_kun - INFO - Executing task id: cw_5 , action: cw
+2024-03-18 03:22:34,523 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:22:37,526 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_10 , action: shutter
+2024-03-18 03:22:37,527 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:22:38,238 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:22:38,239 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:22:41,243 - ugokukun.ugoku_kun - INFO - Executing task id: cw_10 , action: cw
+2024-03-18 03:22:41,271 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:22:44,275 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_15 , action: shutter
+2024-03-18 03:22:44,275 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:22:44,892 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:22:44,892 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:22:47,895 - ugokukun.ugoku_kun - INFO - Executing task id: cw_15 , action: cw
+2024-03-18 03:22:47,923 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:22:50,927 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_20 , action: shutter
+2024-03-18 03:22:50,928 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:22:51,650 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:22:51,651 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:22:54,654 - ugokukun.ugoku_kun - INFO - Executing task id: cw_20 , action: cw
+2024-03-18 03:22:54,683 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:22:57,686 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_25 , action: shutter
+2024-03-18 03:22:57,687 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:22:58,306 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:22:58,307 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:23:01,310 - ugokukun.ugoku_kun - INFO - Executing task id: cw_25 , action: cw
+2024-03-18 03:23:01,339 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:23:04,343 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_30 , action: shutter
+2024-03-18 03:23:04,343 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:23:04,947 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:23:04,948 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:23:07,950 - ugokukun.ugoku_kun - INFO - Executing task id: cw_30 , action: cw
+2024-03-18 03:23:07,979 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:23:10,982 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_35 , action: shutter
+2024-03-18 03:23:10,983 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:23:11,629 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:23:11,629 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:23:14,630 - ugokukun.ugoku_kun - INFO - Executing task id: cw_35 , action: cw
+2024-03-18 03:23:14,659 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:23:17,662 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_40 , action: shutter
+2024-03-18 03:23:17,663 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:23:18,327 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:23:18,328 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:23:21,330 - ugokukun.ugoku_kun - INFO - Executing task id: cw_40 , action: cw
+2024-03-18 03:23:21,359 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:23:24,362 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_45 , action: shutter
+2024-03-18 03:23:24,363 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:23:25,034 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:23:25,034 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:23:28,038 - ugokukun.ugoku_kun - INFO - Executing task id: cw_45 , action: cw
+2024-03-18 03:23:28,067 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:23:31,070 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_50 , action: shutter
+2024-03-18 03:23:31,072 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:23:31,708 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:23:31,709 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:23:34,710 - ugokukun.ugoku_kun - INFO - Executing task id: cw_50 , action: cw
+2024-03-18 03:23:34,739 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:23:37,742 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_55 , action: shutter
+2024-03-18 03:23:37,743 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:23:38,449 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:23:38,450 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:23:41,451 - ugokukun.ugoku_kun - INFO - Executing task id: cw_55 , action: cw
+2024-03-18 03:23:41,480 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:23:44,482 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_60 , action: shutter
+2024-03-18 03:23:44,483 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:23:45,105 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:23:45,105 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:23:48,109 - ugokukun.ugoku_kun - INFO - Executing task id: cw_60 , action: cw
+2024-03-18 03:23:48,138 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:23:51,142 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_65 , action: shutter
+2024-03-18 03:23:51,143 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:23:51,965 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:23:51,965 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:23:54,966 - ugokukun.ugoku_kun - INFO - Executing task id: cw_65 , action: cw
+2024-03-18 03:23:54,995 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:23:57,998 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_70 , action: shutter
+2024-03-18 03:23:57,999 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:23:58,519 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:23:58,520 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:24:01,522 - ugokukun.ugoku_kun - INFO - Executing task id: cw_70 , action: cw
+2024-03-18 03:24:01,551 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:24:04,554 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_75 , action: shutter
+2024-03-18 03:24:04,555 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:24:05,175 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:24:05,176 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:24:08,178 - ugokukun.ugoku_kun - INFO - Executing task id: cw_75 , action: cw
+2024-03-18 03:24:08,207 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:24:11,210 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_80 , action: shutter
+2024-03-18 03:24:11,211 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:24:11,847 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:24:11,848 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:24:14,850 - ugokukun.ugoku_kun - INFO - Executing task id: cw_80 , action: cw
+2024-03-18 03:24:14,879 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:24:17,883 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_85 , action: shutter
+2024-03-18 03:24:17,884 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:24:18,527 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:24:18,528 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:24:21,530 - ugokukun.ugoku_kun - INFO - Executing task id: cw_85 , action: cw
+2024-03-18 03:24:21,559 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:24:24,562 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_90 , action: shutter
+2024-03-18 03:24:24,563 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:24:25,246 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:24:25,246 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:24:28,250 - ugokukun.ugoku_kun - INFO - Executing task id: cw_90 , action: cw
+2024-03-18 03:24:28,279 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:24:31,283 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_95 , action: shutter
+2024-03-18 03:24:31,284 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:24:31,910 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:24:31,911 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:24:34,914 - ugokukun.ugoku_kun - INFO - Executing task id: cw_95 , action: cw
+2024-03-18 03:24:34,943 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:24:37,946 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_100 , action: shutter
+2024-03-18 03:24:37,950 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:24:38,608 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:24:38,609 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:24:41,610 - ugokukun.ugoku_kun - INFO - Executing task id: cw_100 , action: cw
+2024-03-18 03:24:41,639 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:24:44,642 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_105 , action: shutter
+2024-03-18 03:24:44,643 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:24:45,292 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:24:45,292 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:24:48,294 - ugokukun.ugoku_kun - INFO - Executing task id: cw_105 , action: cw
+2024-03-18 03:24:48,323 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:24:51,327 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_110 , action: shutter
+2024-03-18 03:24:51,328 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:24:52,179 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:24:52,179 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:24:55,182 - ugokukun.ugoku_kun - INFO - Executing task id: cw_110 , action: cw
+2024-03-18 03:24:55,211 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:24:58,214 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_115 , action: shutter
+2024-03-18 03:24:58,215 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:24:58,685 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:24:58,686 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:25:01,690 - ugokukun.ugoku_kun - INFO - Executing task id: cw_115 , action: cw
+2024-03-18 03:25:01,719 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:25:04,722 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_120 , action: shutter
+2024-03-18 03:25:04,723 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:25:05,357 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:25:05,358 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:25:08,362 - ugokukun.ugoku_kun - INFO - Executing task id: cw_120 , action: cw
+2024-03-18 03:25:08,390 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:25:11,394 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_125 , action: shutter
+2024-03-18 03:25:11,395 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:25:12,057 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:25:12,058 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:25:15,062 - ugokukun.ugoku_kun - INFO - Executing task id: cw_125 , action: cw
+2024-03-18 03:25:15,091 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:25:18,094 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_130 , action: shutter
+2024-03-18 03:25:18,095 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:25:18,803 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:25:18,804 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:25:21,806 - ugokukun.ugoku_kun - INFO - Executing task id: cw_130 , action: cw
+2024-03-18 03:25:21,835 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:25:24,839 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_135 , action: shutter
+2024-03-18 03:25:24,839 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:25:25,460 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:25:25,460 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:25:28,462 - ugokukun.ugoku_kun - INFO - Executing task id: cw_135 , action: cw
+2024-03-18 03:25:28,491 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:25:31,494 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_140 , action: shutter
+2024-03-18 03:25:31,495 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:25:32,121 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:25:32,121 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:25:35,123 - ugokukun.ugoku_kun - INFO - Executing task id: cw_140 , action: cw
+2024-03-18 03:25:35,151 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:25:38,154 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_145 , action: shutter
+2024-03-18 03:25:38,155 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:25:38,873 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:25:38,874 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:25:41,876 - ugokukun.ugoku_kun - INFO - Executing task id: cw_145 , action: cw
+2024-03-18 03:25:41,905 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:25:44,907 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_150 , action: shutter
+2024-03-18 03:25:44,908 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:25:45,499 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:25:45,499 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:25:48,503 - ugokukun.ugoku_kun - INFO - Executing task id: cw_150 , action: cw
+2024-03-18 03:25:48,532 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:25:51,535 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_155 , action: shutter
+2024-03-18 03:25:51,535 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:25:52,199 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:25:52,199 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:25:55,202 - ugokukun.ugoku_kun - INFO - Executing task id: cw_155 , action: cw
+2024-03-18 03:25:55,231 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:25:58,234 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_160 , action: shutter
+2024-03-18 03:25:58,235 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:25:58,945 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:25:58,945 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:26:01,946 - ugokukun.ugoku_kun - INFO - Executing task id: cw_160 , action: cw
+2024-03-18 03:26:01,975 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:26:04,979 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_165 , action: shutter
+2024-03-18 03:26:04,979 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:26:05,578 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:26:05,578 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:26:08,582 - ugokukun.ugoku_kun - INFO - Executing task id: cw_165 , action: cw
+2024-03-18 03:26:08,611 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:26:11,615 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_170 , action: shutter
+2024-03-18 03:26:11,615 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:26:12,262 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:26:12,263 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:26:15,266 - ugokukun.ugoku_kun - INFO - Executing task id: cw_170 , action: cw
+2024-03-18 03:26:15,295 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:26:18,298 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_175 , action: shutter
+2024-03-18 03:26:18,302 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:26:18,962 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:26:18,962 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:26:21,966 - ugokukun.ugoku_kun - INFO - Executing task id: cw_175 , action: cw
+2024-03-18 03:26:21,995 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:26:24,998 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_180 , action: shutter
+2024-03-18 03:26:24,999 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:26:25,671 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:26:25,671 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:26:28,675 - ugokukun.ugoku_kun - INFO - Executing task id: cw_180 , action: cw
+2024-03-18 03:26:28,704 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:26:31,706 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_185 , action: shutter
+2024-03-18 03:26:31,707 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:26:32,533 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:26:32,534 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:26:35,535 - ugokukun.ugoku_kun - INFO - Executing task id: cw_185 , action: cw
+2024-03-18 03:26:35,564 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:26:38,566 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_190 , action: shutter
+2024-03-18 03:26:38,567 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:26:39,031 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:26:39,032 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:26:42,036 - ugokukun.ugoku_kun - INFO - Executing task id: cw_190 , action: cw
+2024-03-18 03:26:42,065 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:26:45,069 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_195 , action: shutter
+2024-03-18 03:26:45,070 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:26:45,712 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:26:45,713 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:26:48,714 - ugokukun.ugoku_kun - INFO - Executing task id: cw_195 , action: cw
+2024-03-18 03:26:48,743 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:26:51,746 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_200 , action: shutter
+2024-03-18 03:26:51,747 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:26:52,501 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:26:52,501 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:26:55,504 - ugokukun.ugoku_kun - INFO - Executing task id: cw_200 , action: cw
+2024-03-18 03:26:55,533 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:26:58,537 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_205 , action: shutter
+2024-03-18 03:26:58,538 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:26:59,156 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:26:59,157 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:27:02,158 - ugokukun.ugoku_kun - INFO - Executing task id: cw_205 , action: cw
+2024-03-18 03:27:02,187 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:27:05,191 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_210 , action: shutter
+2024-03-18 03:27:05,191 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:27:05,788 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:27:05,789 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:27:08,792 - ugokukun.ugoku_kun - INFO - Executing task id: cw_210 , action: cw
+2024-03-18 03:27:08,821 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:27:11,822 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_215 , action: shutter
+2024-03-18 03:27:11,823 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:27:12,473 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:27:12,474 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:27:15,478 - ugokukun.ugoku_kun - INFO - Executing task id: cw_215 , action: cw
+2024-03-18 03:27:15,506 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:27:18,510 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_220 , action: shutter
+2024-03-18 03:27:18,511 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:27:19,173 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:27:19,173 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:27:22,175 - ugokukun.ugoku_kun - INFO - Executing task id: cw_220 , action: cw
+2024-03-18 03:27:22,203 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:27:25,207 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_225 , action: shutter
+2024-03-18 03:27:25,208 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:27:25,884 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:27:25,885 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:27:28,886 - ugokukun.ugoku_kun - INFO - Executing task id: cw_225 , action: cw
+2024-03-18 03:27:28,915 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:27:31,919 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_230 , action: shutter
+2024-03-18 03:27:31,920 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:27:32,643 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:27:32,643 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:27:35,647 - ugokukun.ugoku_kun - INFO - Executing task id: cw_230 , action: cw
+2024-03-18 03:27:35,676 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:27:38,678 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_235 , action: shutter
+2024-03-18 03:27:38,679 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:27:39,298 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:27:39,298 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:27:42,303 - ugokukun.ugoku_kun - INFO - Executing task id: cw_235 , action: cw
+2024-03-18 03:27:42,331 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:27:45,335 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_240 , action: shutter
+2024-03-18 03:27:45,336 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:27:45,954 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:27:45,955 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:27:48,959 - ugokukun.ugoku_kun - INFO - Executing task id: cw_240 , action: cw
+2024-03-18 03:27:48,988 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:27:51,991 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_245 , action: shutter
+2024-03-18 03:27:51,991 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:27:52,599 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:27:52,599 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:27:55,602 - ugokukun.ugoku_kun - INFO - Executing task id: cw_245 , action: cw
+2024-03-18 03:27:55,631 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:27:58,635 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_250 , action: shutter
+2024-03-18 03:27:58,636 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:27:59,322 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:27:59,323 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:28:02,326 - ugokukun.ugoku_kun - INFO - Executing task id: cw_250 , action: cw
+2024-03-18 03:28:02,355 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:28:05,359 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_255 , action: shutter
+2024-03-18 03:28:05,359 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:28:06,026 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:28:06,026 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:28:09,030 - ugokukun.ugoku_kun - INFO - Executing task id: cw_255 , action: cw
+2024-03-18 03:28:09,059 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:28:12,061 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_260 , action: shutter
+2024-03-18 03:28:12,062 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:28:12,692 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:28:12,692 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:28:15,696 - ugokukun.ugoku_kun - INFO - Executing task id: cw_260 , action: cw
+2024-03-18 03:28:15,725 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:28:18,726 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_265 , action: shutter
+2024-03-18 03:28:18,727 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:28:19,439 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:28:19,440 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:28:22,442 - ugokukun.ugoku_kun - INFO - Executing task id: cw_265 , action: cw
+2024-03-18 03:28:22,471 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:28:25,474 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_270 , action: shutter
+2024-03-18 03:28:25,475 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:28:26,051 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:28:26,051 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:28:29,054 - ugokukun.ugoku_kun - INFO - Executing task id: cw_270 , action: cw
+2024-03-18 03:28:29,083 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:28:32,087 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_275 , action: shutter
+2024-03-18 03:28:32,088 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:28:32,754 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:28:32,755 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:28:35,758 - ugokukun.ugoku_kun - INFO - Executing task id: cw_275 , action: cw
+2024-03-18 03:28:35,787 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:28:38,790 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_280 , action: shutter
+2024-03-18 03:28:38,791 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:28:39,511 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:28:39,511 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:28:42,514 - ugokukun.ugoku_kun - INFO - Executing task id: cw_280 , action: cw
+2024-03-18 03:28:42,543 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:28:45,547 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_285 , action: shutter
+2024-03-18 03:28:45,547 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:28:46,168 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:28:46,169 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:28:49,170 - ugokukun.ugoku_kun - INFO - Executing task id: cw_285 , action: cw
+2024-03-18 03:28:49,199 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:28:52,202 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_290 , action: shutter
+2024-03-18 03:28:52,203 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:28:52,812 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:28:52,812 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:28:55,814 - ugokukun.ugoku_kun - INFO - Executing task id: cw_290 , action: cw
+2024-03-18 03:28:55,843 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:28:58,846 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_295 , action: shutter
+2024-03-18 03:28:58,847 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:28:59,479 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:28:59,480 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:29:02,483 - ugokukun.ugoku_kun - INFO - Executing task id: cw_295 , action: cw
+2024-03-18 03:29:02,511 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:29:05,514 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_300 , action: shutter
+2024-03-18 03:29:05,516 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:29:06,180 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:29:06,181 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:29:09,182 - ugokukun.ugoku_kun - INFO - Executing task id: cw_300 , action: cw
+2024-03-18 03:29:09,211 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:29:12,214 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_305 , action: shutter
+2024-03-18 03:29:12,215 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:29:12,894 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:29:12,895 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:29:15,898 - ugokukun.ugoku_kun - INFO - Executing task id: cw_305 , action: cw
+2024-03-18 03:29:15,927 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:29:18,930 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_310 , action: shutter
+2024-03-18 03:29:18,931 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:29:19,570 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:29:19,570 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:29:22,574 - ugokukun.ugoku_kun - INFO - Executing task id: cw_310 , action: cw
+2024-03-18 03:29:22,603 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:29:25,606 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_315 , action: shutter
+2024-03-18 03:29:25,607 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:29:26,309 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:29:26,310 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:29:29,314 - ugokukun.ugoku_kun - INFO - Executing task id: cw_315 , action: cw
+2024-03-18 03:29:29,343 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:29:32,347 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_320 , action: shutter
+2024-03-18 03:29:32,347 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:29:32,966 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:29:32,966 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:29:35,970 - ugokukun.ugoku_kun - INFO - Executing task id: cw_320 , action: cw
+2024-03-18 03:29:35,999 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:29:39,002 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_325 , action: shutter
+2024-03-18 03:29:39,006 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:29:39,723 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:29:39,724 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:29:42,726 - ugokukun.ugoku_kun - INFO - Executing task id: cw_325 , action: cw
+2024-03-18 03:29:42,755 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:29:45,759 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_330 , action: shutter
+2024-03-18 03:29:45,760 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:29:46,379 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:29:46,380 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:29:49,382 - ugokukun.ugoku_kun - INFO - Executing task id: cw_330 , action: cw
+2024-03-18 03:29:49,411 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:29:52,414 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_335 , action: shutter
+2024-03-18 03:29:52,415 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:29:53,020 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:29:53,021 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:29:56,023 - ugokukun.ugoku_kun - INFO - Executing task id: cw_335 , action: cw
+2024-03-18 03:29:56,051 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:29:59,054 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_340 , action: shutter
+2024-03-18 03:29:59,055 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:29:59,712 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:29:59,712 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:30:02,714 - ugokukun.ugoku_kun - INFO - Executing task id: cw_340 , action: cw
+2024-03-18 03:30:02,743 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:30:05,746 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_345 , action: shutter
+2024-03-18 03:30:05,747 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:30:06,370 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:30:06,370 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:30:09,374 - ugokukun.ugoku_kun - INFO - Executing task id: cw_345 , action: cw
+2024-03-18 03:30:09,403 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:30:12,406 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_350 , action: shutter
+2024-03-18 03:30:12,407 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:30:13,048 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:30:13,049 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:30:16,050 - ugokukun.ugoku_kun - INFO - Executing task id: cw_350 , action: cw
+2024-03-18 03:30:16,079 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:30:19,083 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_355 , action: shutter
+2024-03-18 03:30:19,084 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:30:19,749 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:30:19,750 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:30:22,751 - ugokukun.ugoku_kun - INFO - Executing task id: cw_355 , action: cw
+2024-03-18 03:30:22,780 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
+2024-03-18 03:30:25,783 - ugokukun.ugoku_kun - INFO - Executing task id: shutter_360 , action: shutter
+2024-03-18 03:30:25,784 - ugokukun.cannon_wrapper - INFO - API URL: http://192.168.11.152:8080/ccapi/ver100/shooting/control/shutterbutton
+2024-03-18 03:30:26,433 - ugokukun.cannon_wrapper - INFO -   - Request success: 200
+2024-03-18 03:30:26,434 - ugokukun.cannon_wrapper - INFO -   - Shutter button pressed
+2024-03-18 03:30:29,438 - ugokukun.ugoku_kun - INFO - Executing task id: cw_360 , action: cw
+2024-03-18 03:30:29,466 - ugokukun.keigan_wrapper - INFO - Motor turned -5 degrees clockwise at 30 rpm.
