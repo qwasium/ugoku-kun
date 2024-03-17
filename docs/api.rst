@@ -4,6 +4,7 @@ ugokukun
 try ugokukun here
 
 .. automodule:: ugokukun,ugoku_helpers
+	:imported-members:
 	:members:
 	:undoc-members:
 	:show-inheritance:
