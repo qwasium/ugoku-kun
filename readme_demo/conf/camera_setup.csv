@@ -1,0 +1,6 @@
+task_id,wait_time,target,action,param,payload
+set_aperture,3,camera_0,aperture,f10,
+ser_exposure,3,camera_0,exposure,-0_2/3,
+set_col_temp,3,camera_0,color_temperature,7200,
+set_iso,3,camera_0,iso,auto,
+set_shutter_speed,3,camera_0,shutter_speed,5",

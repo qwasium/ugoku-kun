@@ -15,6 +15,8 @@ This Python library is built as part of a internship project at the National Agr
   - ugoku_helers.py: The utility module.
 - docs: The documentation. WIP.
 - tests/*: Tests, not automated, WIP.
+- readme_demo: Read this for quick start.
+  - readme.ipynb: READ THIS FIRST.
 
 ## Dependencies
 

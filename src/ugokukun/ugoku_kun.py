@@ -62,9 +62,8 @@ class UgokuKun:
 
         # log
         self.log_path = log_path
-        if not os.path.exists(self.log_path):
-            with open(self.log_path, "w", encoding="utf-8") as f:
-                f.write("")
+        if os.path.dirname(log_path) and not os.path.exists(os.path.dirname(log_path)):
+            os.makedirs(os.path.dirname(log_path))
 
         self.logger = logging.getLogger(__name__)
         self.logger.setLevel(logging.DEBUG)
@@ -301,7 +300,7 @@ class UgokuKun:
 
         raise ValueError(f"Invalid action: {self.csv_df.at[row, 'action']}")
 
-    def dry_run(self) -> None:
+    def test_run(self) -> None:
         """Run all commannds in the csv file except WAIT commands.
         This method is useful to check if the commands are valid.
         Run this method before running the `run` method and fix if any errors are found.
