@@ -2,21 +2,21 @@
 
 This is a Python library for controlling Cannon cameras and Keigan Motor for SfM (Structure from Motion) applications.
 
-This Python library is built as part of a internship project at the National Agriculture and Food Research Organization (NARO) in Japan.
+This Python library is built as part of an internship project at the National Agriculture and Food Research Organization (NARO) in Japan.
 
 ## Codemap
 
-- README.md: This file.
+- `README.md`: This file.
 - ugoku_kun: The main package.
-  - __init__.py
-  - cannon_wrapper.py: The camera module.
-  - keigan_wrapper.py: The Keigan Motor module.
-  - ugoku_kun.py: The main module.
-  - ugoku_helers.py: The utility module.
-- docs: The documentation. WIP.
+  - `__init__.py`
+  - `cannon_wrapper.py`: The camera module `CannonWrapper`.
+  - `keigan_wrapper.py`: The Keigan Motor module `KeiganWrapper`.
+  - `ugoku_kun.py`: The main module `UgokuKun`.
+  - `ugoku_helers.py`: The utility module `UgokuHelpers`.
+- docs/*: The documentation. WIP.
 - tests/*: Tests, not automated, WIP.
 - readme_demo: Read this for quick start.
-  - readme.ipynb: READ THIS FIRST.
+  - `readme.ipynb`: READ THIS FIRST.
 
 ## Dependencies
 
@@ -41,18 +41,18 @@ Should work on Windows too. ccapi is platform independent.
 
 Kill any "smart" features on your router that automatically adjusts configurations such as the following:
 
-- Don't mix authentication methods -> If in doubt, use WPA2-PSK (AES) only
-- Don't mix 2.4/5GHz bands -> set a dedicated SSID for 2.4GHz
-- Don't mix channel width (20MHz/40MHz) -> set to either 20MHz ONLY or 40MHz ONLY
-- Use channels 1-11 only -> Auto channel selection is OK as long as 12/13 channels are disabled
+- Don't mix authentication methods -> If in doubt, use **WPA2-PSK (AES) ONLY**
+- Don't mix 2.4/5GHz bands -> set a **dedicated SSID for 2.4GHz**
+- Don't mix channel width (20MHz/40MHz) -> set to either **20MHz ONLY or 40MHz ONLY**
+- Use channels 1-11 only -> Auto channel selection is OK as long as **12/13 channels are disabled**
 
 ## Workflow
 
-1. Create task csv and device json.
+1. Create `task csv` and `device json`.
 2. Set up camera(s) and turntable.
 3. Adjust focus on camera(s).
 4. Run Jupyter Notebook.
-5. export log
+5. Check log.
 
 ## Device List JSON
 
@@ -76,13 +76,13 @@ All devices are identified by a unique ID. This ID is used to refer to the devic
 The csv file must have the following headers or it will raise an error.:
 
 - task_id (str): Unique ID of the task. Any Duplicate task_id will raise an error.
-- wait_time (float): Time to wait from previous task. In seconds.
+- wait_time (float): Time to wait from the previous task. In seconds.
 - target (str): The device to control. Must be a device ID defined in the device list JSON.
 - action (str): Depends on target. See below.
 - param (str): Depends on action. See below.
 - payload (str): Depends on action. See below.
 
-### Target == Cannon camera ID
+### Target == "Cannon camera ID"
 
 - action == "get": HTTP GET request.
   - param: The URL to GET.
@@ -109,7 +109,7 @@ The csv file must have the following headers or it will raise an error.:
 - action == "white_balance": CannonWrapper.set_white_balance()
   - param: white balance value
 
-### Target == Keigan turntable ID
+### Target == "Keigan turntable ID"
 
 - action == "cw": turn clockwise relative to current position
   - param: The angle to turn
@@ -121,7 +121,6 @@ The csv file must have the following headers or it will raise an error.:
 ### Target == "all"
 
 - action == "wait": Halt entire system for specified in wait_time.
-
 
 ## Limitations
 
