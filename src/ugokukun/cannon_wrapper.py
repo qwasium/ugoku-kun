@@ -15,16 +15,30 @@ import requests as req
 def _req_handle(func: Callable[[Any, str, Any], Any]) -> Callable[[Any, str, Any], Any]:
     def wrapper(instance: Any, api_str: str, *args, **kwargs) -> req.models.Response:
         """Wrapper to repeat HTTP requests until success or max_attempts is reached.
+
+        Repeat HTTP requests until success or max_attempts is reached.
         Only return when status_code is 200, raise error otherwise.
 
-        :raises timeout_err: timeout error
-        :raises connection_err: network problems
-        :raises http_err: invalid HTTP response
-        :raises redirect_err: bad URL
-        :raises req_err: all exceptions that requests can raise
-        :raises ConnectionError: if failed to get response
-        :return: response
-        :rtype: req.models.Response
+        Returns
+        -------
+        req.models.Response
+            Response of the request.
+
+        Raises
+        ------
+        timeout_err
+            timeout error
+        connection_err
+            network problems
+        http_err
+            invalid HTTP response
+        redirect_err
+            bad URL
+        req_err
+            all exceptions that requests can raise
+        ConnectionError
+            if failed to get response
+
         """
         # Check if api is available
         assert api_str in instance.api_url, "API not available: " + str(api_str)
@@ -106,8 +120,30 @@ def _req_handle(func: Callable[[Any, str, Any], Any]) -> Callable[[Any, str, Any
 class CannonWrapper:
     """Wrapper for Cannon ccapi.
 
-    :ivar float wait_time: Wait time between attempts.
+    An instance of this class represents a single Cannon camera connection.
 
+    Attributes
+    ----------
+    wait_time : float
+        Wait time between attempts.
+    req_timeout : Tuple[float, float]
+        Request timeout.
+    ip_port : str
+        IP address and port of the camera. Format is: {IP address}:{port}.
+    auto_power_off : bool
+        Disables auto power off if False.
+    log_path : str
+        Path of log file for logging.
+    logger : logging.Logger
+        Logger for logging.
+    api_url : List[str]
+        List of API URLs.
+    available_api : Dict
+        Available API.
+    device_info : Dict
+        Device information.
+    settings : Dict
+        Shooting parameters.
 
     """
 
@@ -122,18 +158,24 @@ class CannonWrapper:
     ):
         """Initialize connector by connecting to cannon camera and disabling auto power off.
 
-        :param wait_time: Wait time between attempts., defaults to 3
-        :type wait_time: float, optional
-        :param max_attempts: Maximum number of HTTP request attempts., defaults to 5
-        :type max_attempts: int, optional
-        :param req_timeout: Request timeout., defaults to (3.0, 7.5)
-        :type req_timeout: Tuple[float, float], optional
-        :param ip_port: IP address and port of the camera. Format is: {IP address}:{port}., defaults to "192.168.1.2:8080"
-        :type ip_port: str, optional
-        :param auto_power_off: Disables auto power off if False., defaults to False
-        :type auto_power_off: bool, optional
-        :param log_path: Path of log file for logging., defaults to "log.txt"
-        :type log_path: str, optional
+        The constructor will...
+        - Connect to the camera.
+        - Disable auto power off.
+
+        Parameters
+        ----------
+        wait_time : float, optional
+            Wait time between attempts., by default 3
+        max_attempts : int, optional
+            Maximum number of HTTP request attempts., by default 5
+        req_timeout : Tuple[float, float], optional
+            Request timeout., by default (3.0, 7.5)
+        ip_port : str, optional
+            IP address and port of the camera. Format is: {IP address}:{port}., by default "
+        auto_power_off : bool, optional
+            Disables auto power off if False., by default False
+        log_path : str, optional
+            Path of log file for logging., by default "log.txt"
         """
         # set attributes
         self.wait_time = wait_time
@@ -191,36 +233,46 @@ class CannonWrapper:
 
     @_req_handle
     def http_get(self, api_str: str) -> req.models.Response:
-        """HTTP get request."""
+        """HTTP get request wrapped in _req_handle."""
         return req.get(api_str, timeout=self.req_timeout)
 
     @_req_handle
     def http_post(self, api_str: str, payload: Dict) -> req.models.Response:
-        """HTTP post request."""
+        """HTTP post request wrapped in _req_handle."""
         return req.post(api_str, json=payload, timeout=self.req_timeout)
 
     @_req_handle
     def http_put(self, api_str: str, payload: Dict) -> req.models.Response:
-        """HTTP put request."""
+        """HTTP put request wrapped in _req_handle."""
         return req.put(api_str, json=payload, timeout=self.req_timeout)
 
     @_req_handle
     def http_delete(self, api_str: str) -> req.models.Response:
-        """HTTP delete request."""
+        """HTTP delete request wrapped in _req_handle."""
         return req.delete(api_str, timeout=self.req_timeout)
 
     def get_full_uri(self, api_str: str) -> str:
         """Get full URI. I was not sure if there would be different versions of the same API. If that is not the case, the function can be simplified.
 
-        :param api_str: API URL string after: "http://{self.ip_address}:{self.port}/ccapi/"version".
+        I was not sure if there would be different versions of the same API command in different API versions.
+        If that is not the case, the function can be simplified.
+
+        Parameters
+        ----------
+        api_str : str
+            API URL string after: "http://{self.ip_address}:{self.port}/ccapi/"version".
             Example: "/shooting/control/shutterbutton".
 
-        :type api_str: str
-        :raises ValueError: If API is not available.
-        :return valid_api: Full API URL of the newest version of the input API.
+        Returns
+        -------
+        str
+            Full API URL of the newest version of the input API.
             Example: "http://192.168.1.2:8080/ccapi/ver100/shooting/control/shutterbutton"
 
-        :rtype: str
+        Notes
+        -----
+        I was not sure if there would be different versions of the same API command in different API versions.
+        If that is not the case, the function can be simplified.
         """
         # match available API that encs with api_str
         match = re.compile(f"{api_str}$").search
@@ -237,8 +289,10 @@ class CannonWrapper:
     def kill_auto_power_off(self) -> req.models.Response:
         """Disable auto power off.
 
-        :return: Auto power off result.
-        :rtype: req.models.Response
+        Returns
+        -------
+        req.models.Response
+            Auto power off result.
         """
         auto_off_api = self.get_full_uri("/functions/autopoweroff")
         auto_off = self.http_put(auto_off_api, payload={"value": "disable"})
@@ -249,13 +303,18 @@ class CannonWrapper:
 
     def get_shooting_param(self) -> req.models.Response:
         """Get all shooting parameters.
+
+        Returns
+        -------
+        req.models.Response
+            Shooting parameters.
+
+        Notes
+        -----
         self.settings["color_temperature"]["ability"] is changed to a list of available color temperatures.
         Example:
             Before: {"min": 2500, "max": 10000, "step": 100}
             After:  [2500, 2600, 2700, ..., 10000]
-
-        :return: Shooting parameters.
-        :rtype: req.models.Response
         """
         settings_api = self.get_full_uri("/shooting/settings")
         settings = self.http_get(settings_api)
@@ -278,9 +337,12 @@ class CannonWrapper:
         return settings
 
     def set_shooting_settings(self, param: str, value: str) -> req.models.Response:
-        """Wrapper for setting shooting parameters.
+        """Set shooting parameters.
 
-        :param param: Parameter to be set, such as:
+        Parameters
+        ----------
+        param : str
+            Parameter to be set, such as:
             - "shutter_speed"
             - "aperture"
             - "iso"
@@ -288,14 +350,19 @@ class CannonWrapper:
             - "whitebalance"
             - "colortemperature"
             Valid entries are hard coded in this method.
-        :type param: str
-        :param value: Value of the parameter. Depends on the parameter. payload is {"value": value}
-        :type value: str
-        :raises ValueError: If invalid `param` is provided.
-        :return: Response of the request.
-        :rtype: req.models.Response
-        """
+        value : str
+            Value of the parameter. Depends on the parameter. payload is {"value": value}
 
+        Returns
+        -------
+        req.models.Response
+            Response of the request.
+
+        Raises
+        ------
+        ValueError
+            If invalid `param` is provided.
+        """
         param = param.lower()
         param_key = {
             "shutter_speed": "tv",
@@ -320,12 +387,20 @@ class CannonWrapper:
         return response
 
     def set_shutter_speed(self, shutter_speed: str) -> req.models.Response:
-        """Set shutter speed. Payload example: {"value": "5\""}
+        """Set shutter speed.
 
-        :param shutter_speed: Shutter speed. Example: "5\""
-        :type shutter_speed: str
-        :return: Response of the request.
-        :rtype: req.models.Response
+        Payload example: {"value": "5\""}
+        The backslash is an excape charactor.
+
+        Parameters
+        ----------
+        shutter_speed : str
+            Shutter speed. Example: "5\""
+
+        Returns
+        -------
+        req.models.Response
+            Response of the request.
         """
         shutter_speed_response = self.set_shooting_settings(
             "shutter_speed", shutter_speed
@@ -334,48 +409,76 @@ class CannonWrapper:
         return shutter_speed_response
 
     def set_aperture(self, aperture: str) -> req.models.Response:
-        """Set aperture. Payload example: {"value": "f4.0"}
+        """Set aperture.
 
-        :param aperture: Aperture. Example: "f4.0"
-        :type aperture: str
-        :return: Response of the request.
-        :rtype: req.models.Response
+        Payload example: {"value": "f4.0"}
+
+        Parameters
+        ----------
+        aperture : str
+            Aperture. Example: "f4.0"
+
+        Returns
+        -------
+        req.models.Response
+            Response of the request.
         """
         aperture_response = self.set_shooting_settings("aperture", aperture)
         self.logger.info("  - Exposure set to: %s", aperture)
         return aperture_response
 
     def set_iso(self, iso: str) -> req.models.Response:
-        """Set ISO value. Payload example: {"value": "3200"}
+        """Set ISO value.
 
-        :param iso: ISO. Example: "3200"
-        :type iso: str
-        :return: Response of the request.
-        :rtype: req.models.Response
+        Payload example: {"value": "3200"}
+
+        Parameters
+        ----------
+        iso : str
+            ISO. Example: "3200"
+
+        Returns
+        -------
+        req.models.Response
+            Response of the request.
         """
         iso_response = self.set_shooting_settings("iso", iso)
         self.logger.info("  - ISO set to: %s", iso)
         return iso_response
 
     def set_exposure(self, exposure: str) -> req.models.Response:
-        """Set exposure. Payload example: {"value": "-2_2/3"}
+        """Set exposure.
 
-        :param exposure: Exposure. Example: "-2_2/3"
-        :type exposure: str
-        :return: Response of the request.
-        :rtype: req.models.Response
+        Payload example: {"value": "-2_2/3"}
+
+        Parameters
+        ----------
+        exposure : str
+            Exposure. Example: "-2_2/3"
+
+        Returns
+        -------
+        req.models.Response
+            Response of the request.
         """
         exposure_response = self.set_shooting_settings("exposure", exposure)
         self.logger.info("  - Exposure set to: %s", exposure)
         return exposure_response
 
     def set_white_balance(self, white_balance: str) -> req.models.Response:
-        """Set white balance. Payload example: {"value": "auto"}
+        """Set white balance.
 
-        :param white_balance: White balance. Example: "auto"
-        :type white_balance: str
-        :return: Response of the request.
-        :rtype: req.models.Response
+        Payload example: {"value": "auto"}
+
+        Parameters
+        ----------
+        white_balance : str
+            White balance. Example: "auto"
+
+        Returns
+        -------
+        req.models.Response
+            Response of the request.
         """
         white_balance_response = self.set_shooting_settings(
             "whitebalance", white_balance
@@ -384,25 +487,38 @@ class CannonWrapper:
         return white_balance_response
 
     def set_color_temp(self, color_temp: int) -> req.models.Response:
-        """Set color temperature. Payload example: {"value": 4000}
+        """Set color temperature.
 
-        :param color_temp: Color temperature. Example: 4000
-        :type color_temp: int
-        :return: Response of the request.
-        :rtype: req.models.Response
+        Payload example: {"value": 4000}"
+
+        Parameters
+        ----------
+        color_temp : int
+            Color temperature. Example: 4000
+
+        Returns
+        -------
+        req.models.Response
+            Response of the request.
         """
         color_temp_response = self.set_shooting_settings("colortemperature", color_temp)
         self.logger.info("  - Color temperature set to: %s", str(color_temp))
         return color_temp_response
 
     def shutter(self, af: bool = False) -> req.models.Response:
-        """Take a picture. Payload example: {"af": False}.
-        Set the AF/MF tab on the camera to the AF side to enable automatic focus.
+        """Take a picture.
 
-        :param af: Auto focus. Key value for payload., defaults to False
-        :type af: bool, optional
-        :return: Shutter button response.
-        :rtype: req.models.Response
+        Payload example: {"af": False}."
+
+        Parameters
+        ----------
+        af : bool, optional
+            Auto focus. Key value for payload., by default False
+
+        Returns
+        -------
+        req.models.Response
+            Shutter button response.
         """
         af = bool(af)  # int [0|1] -> int::bool [False|True]
         payload = {"af": af}
@@ -414,10 +530,15 @@ class CannonWrapper:
     def dump_attributes(self, ouput_path: str = "camera_settings.json") -> None:
         """Dump all settings to JSON file.
 
-        :param ouput_path: Path to the output file., defaults to "camera_settings.json"
-        :type ouput_path: str, optional
-        :return: Dumped settings.
-        :rtype: Dict
+        Parameters
+        ----------
+        ouput_path : str, optional
+            Path to the output file., by default "camera_settings.json"
+
+        Returns
+        -------
+        Dict
+            Dumped settings.
         """
         dump_dict = {
             "wait_time": self.wait_time,

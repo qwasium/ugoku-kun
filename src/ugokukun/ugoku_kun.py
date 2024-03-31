@@ -18,6 +18,35 @@ class UgokuKun:
     """
     Control multiple cannon cameras and turntable.
 
+    Attributes
+    ----------
+    wait_time : float
+        Wait time between HTTP request attempts.
+    max_attempts : int
+        Maximum number of HTTP requests attempts.
+    req_timeout : Tuple[float, float]
+        Timeout of the HTTP request.
+    device_json_path : str
+        Path of the json file containing the device id and addresses.
+    devices : Dict[str, Dict[str, str]]
+        Dictionary containing the devices.
+    task_csv_path : str
+        Path of the task csv file.
+    csv_df : pd.DataFrame
+        The csv file as a pandas DataFrame.
+    log_path : str
+        Path of the log txt file.
+    logger : logging.Logger
+        Logger object.
+    keigan_motors : Dict[str, str]
+        Dictionary containing the keigan motors.
+    keigan_instances : Dict[str, KeiganWrapper]
+        Dictionary containing the KeiganWrapper instances.
+    cannon_cameras : Dict[str, str]
+        Dictionary containing the cannon cameras.
+    cannon_instances : Dict[str, CannonWrapper]
+        Dictionary containing the CannonWrapper instances.
+
     """
 
     def __init__(
@@ -29,21 +58,28 @@ class UgokuKun:
         max_attempts: int = 20,
         req_timeout: Tuple[float, float] = (3.0, 7.5),
     ):
-        """Initialize UgokuKun object.
+        """Readin json and csv and connect to devices.
 
-        :param task_csv_path: Path of the task csv file.
-        :type task_csv_path: str
-        :param device_json_path: Path of the json file containing the device id and addresses.
-        :type device_json_path: str
-        :param log_path: Path of the log txt file., defaults to "log.txt"
-        :type log_path: str, optional
-        :param wait_time: Wait time between HTTP request attempts., defaults to 0.5
-        :type wait_time: float, optional
-        :param max_attempts: Maximum number of HTTP requests attempts., defaults to 20
-        :type max_attempts: int, optional
-        :param req_timeout: Timeout of the HTTP request., defaults to (3.0, 7.5)
-        :type req_timeout: Tuple[float, float], optional
-        :raises ValueError: No cameras found in the device json file.
+        Parameters
+        ----------
+        task_csv_path : str
+            Path of the task csv file.
+        device_json_path : str
+            Path of the json file containing the device id and addresses.
+        log_path : str, optional
+            Path of the log txt file., by default "log.txt"
+        wait_time : float, optional
+            Wait time between HTTP request attempts., by default 0.5
+        max_attempts : int, optional
+            Maximum number of HTTP requests attempts., by default 20
+        req_timeout : Tuple[float, float], optional
+            Timeout of the HTTP request., by default (3.0, 7.5)
+
+        Raises
+        ------
+        ValueError
+            No cameras found in the device json file.
+
         """
         self.wait_time = wait_time
         self.max_attempts = max_attempts
@@ -106,11 +142,20 @@ class UgokuKun:
     def load_task_csv(self, task_csv_path: str) -> pd.DataFrame:
         """Load a new csv file and overwrite the current self.csv_df.
 
-        :param task_csv_path: Path of the csv file.
-        :type task_csv_path: str
-        :raises ValueError: Missing header or duplicate task_id.
-        :return: The csv file as a pandas DataFrame.
-        :rtype: pd.DataFrame
+        Parameters
+        ----------
+        task_csv_path : str
+            Path of the csv file.
+
+        Returns
+        -------
+        pd.DataFrame
+            The csv file as a pandas DataFrame.
+
+        Raises
+        ------
+        ValueError
+            Missing header or duplicate task_id.
         """
         self.task_csv_path = task_csv_path
         self.csv_df = pd.read_csv(task_csv_path, header=0, index_col=None)
@@ -137,15 +182,17 @@ class UgokuKun:
         return self.csv_df
 
     def execute_row(self, row_index: int) -> None:
-        """Execute a single row in the csv file.
-        if self.csv_df.at[row_index, "target"] is:
-            - "all": self.execute_all()
-            - camera_id: self.execute_cannon()
-            - keigan_id: self.execute_keigan()
+        """Execure a single row in the csv file.
 
-        :param row_index: Index of the row to be executed.
-        :type row_index: int
-        :raises ValueError: Invalid target.
+        Parameters
+        ----------
+        row_index : int
+            Index of the row to be executed.
+
+        Raises
+        ------
+        ValueError
+            Invalid target.
         """
         if self.csv_df.at[row_index, "target"] == "all":
             self.execute_all(row_index)
@@ -163,6 +210,26 @@ class UgokuKun:
 
     def execute_cannon(self, camera: str, row_index: int) -> Any:
         """Execute a single row in the csv file where target==camera_id.
+
+        Parameters
+        ----------
+        camera : str
+            camera_id in the device json file.
+        row_index : int
+            Index of the row of the csv to be executed.
+
+        Returns
+        -------
+        Any
+            The return of the executed action. Most likely requests.Response object.
+
+        Raises
+        ------
+        ValueError
+            Invalid action.
+
+        Notes
+        -----
         if self.csv_df.at[row_index, "action"] is:
             - "get": self.cannon_instances[camera].http_get()
             - "post": self.cannon_instances[camera].http_post()
@@ -175,14 +242,6 @@ class UgokuKun:
             - "color_temperature": self.cannon_instances[camera].set_color_temp()
             - "white_balance": self.cannon_instances[camera].set_white_balance()
             - "shutter_speed": self.cannon_instances[camera].set_shutter_speed()
-
-        :param camera: camera_id in the device json file.
-        :type camera: str
-        :param row_index: Index of the row of the csv to be executed.
-        :type row_index: int
-        :raises ValueError: Invalid action.
-        :return: The return of the executed action. Most likely requests.Response object.
-        :rtype: Any
         """
         # HTTP GET
         if self.csv_df.at[row_index, "action"] == "get":
@@ -266,15 +325,23 @@ class UgokuKun:
     def execute_keigan(self, motor_id: str, row_index: int):
         """Execute a single row in the csv file where target==keigan_id.
 
-        :param motor_id: motor_id in the device json file.
-        :type motor_id: str
-        :param row_index: Index of the row of the csv to be executed.
-        :type row_index: int
-        :raises ValueError: Invalid action.
-        :return: Return of the executed action. Mostly None.
-        :rtype: Any
-        """
+        Parameters
+        ----------
+        motor_id : str
+            motor_id in the device json file.
+        row_index : int
+            Index of the row of the csv to be executed.
 
+        Returns
+        -------
+        Any
+            The return of the executed action. Most likely None.
+
+        Raises
+        ------
+        ValueError
+            Invalid action.
+        """
         if self.csv_df.at[row_index, "action"] == "cw":
             return self.keigan_instances[motor_id].turn_relative(
                 clock_wise=True, degrees=int(self.csv_df.at[row_index, "param"])
@@ -293,7 +360,19 @@ class UgokuKun:
         raise ValueError(f"Invalid action: {self.csv_df.at[row_index, 'action']}")
 
     def execute_all(self, row: int):
-        """Actions for target=="all"."""
+        """Actions for target=="all".
+
+        Parameters
+        ----------
+        row : int
+            Index of the row of the csv to be executed.
+            Only action=="sleep" is implemeted.
+
+        Raises
+        ------
+        ValueError
+            Invalid action.
+        """
 
         if self.csv_df.at[row, "action"] == "sleep":
             return
@@ -302,6 +381,7 @@ class UgokuKun:
 
     def test_run(self) -> None:
         """Run all commannds in the csv file except WAIT commands.
+
         This method is useful to check if the commands are valid.
         Run this method before running the `run` method and fix if any errors are found.
 

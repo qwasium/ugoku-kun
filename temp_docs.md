@@ -138,16 +138,6 @@ Returns:
 
 ### `get_shooting_param()`
 
-        """Get all shooting parameters.
-        self.settings["color_temperature"]["ability"] is changed to a list of available color temperatures.
-        Example:
-            Before: {"min": 2500, "max": 10000, "step": 100}
-            After:  [2500, 2600, 2700, ..., 10000]
-
-        :return: Shooting parameters.
-        :rtype: req.models.Response
-        """
-
 Get all shooting parameters and overwrite self.settings.
 
 Returns:
@@ -294,14 +284,6 @@ Returns:
 
 ### `dump_attributes()`
 
-     """Dump all settings to JSON file.
-
-        :param ouput_path: Path to the output file., defaults to "camera_settings.json"
-        :type ouput_path: str, optional
-        :return: Dumped settings.
-        :rtype: Dict
-        """
-
 Dump all settings to JSON file.
 
 Parameters:
@@ -375,17 +357,6 @@ This is method is extracted just to have a timeout to the pykeigan method. It is
 This method fails solve the problem for robustness, so idealy, pykeigan should be forked and modified to have a timeout in the source code.
 
 ## `turn_relative()`
-
-        """Turn motor by relative position.
-        This method will wait for the motor to finish turning.
-        Rotation by absolute position is not implemented in this class.
-        This is because it is hard to know when the motor has finished turning.
-
-        :param clock_wise: Direction to turn the motor. Clockwise if True, counter-clockwise if False., defaults to False
-        :type clock_wise: bool, optional
-        :param degrees: Degrees to rotate. Will accept negative values, if that's what you want.
-        :type degrees: int
-        """
 
 Turn motor by relative position.
 
@@ -569,19 +540,6 @@ Returns:
 - Union[Dict, List]: Imported json data.
 
 ### `strtobool()`
-
-       """Workaround for distutils.util.strtobool getting deprecated.
-
-        :param bool_str: String to be converted to bool.
-        :type bool_str: str
-        :param true_str: List of strings that represent True, defaults to ["true", "t", "yes", "y", "1", "mark"]
-        :type true_str: List[str], optional
-        :param false_str: List of strings that represent False, defaults to ["false", "f", "no", "n", "0", "space"]
-        :type false_str: List[str], optional
-        :raises ValueError: Could not convert to bool
-        :return: Converted bool.
-        :rtype: bool
-        """
 
 Workaround for distutils.util.strtobool getting deprecated.
 

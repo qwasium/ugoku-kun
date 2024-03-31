@@ -23,6 +23,12 @@ class KeiganWrapper:
     motor : pykeigan.usbcontroller.USBController
         Motor object.
         motor.serial is the serial.Serial object.
+    speed : int
+        Motor speed in rpm.
+    log_path : str
+        Path to log file.
+    logger : logging.Logger
+        Logger object.
 
     Notes
     -----
@@ -38,17 +44,23 @@ class KeiganWrapper:
         baudrate: int = 115200,
         log_path: str = "log.txt",
     ):
-        """Initialize KeiganMotor object.
+        """Connect to Keigan motor.
 
-        :param port: Serial port to connect to., defaults to "/dev/ttyUSB0"
-        :type port: str, optional
-        :param speed: Motor speed in rpm., defaults to 30
-        :type speed: int, optional
-        :param baudrate: Baudrate., defaults to 115200
-        :type baudrate: int, optional
-        :param log_path: Path to log file. If file doesn't exist, it will be created., defaults to "log.txt"
-        :type log_path: str, optional
-        :raises ValueError: Port not available.
+        Parameters
+        ----------
+        port : str, optional
+            Serial port to connect to., by default "/dev/ttyUSB0"
+        speed : int, optional
+            Motor speed in rpm., by default 30
+        baudrate : int, optional
+            Baudrate., by default 115200
+        log_path : str, optional
+            Path to log file. If file doesn't exist, it will be created., by default "log.txt"
+
+        Raises
+        ------
+        ValueError
+            Port not available.
         """
 
         # check if probided port is available
@@ -149,15 +161,19 @@ class KeiganWrapper:
         )
 
     def turn_relative(self, clock_wise: False, degrees: int) -> None:
-        """Turn motor by relative position.
-        This method will wait for the motor to finish turning.
-        Rotation by absolute position is not implemented in this class.
-        This is because it is hard to know when the motor has finished turning.
+        """Turn motor based on relative position.
 
-        :param clock_wise: Direction to turn the motor. Clockwise if True, counter-clockwise if False., defaults to False
-        :type clock_wise: bool, optional
-        :param degrees: Degrees to rotate. Will accept negative values, if that's what you want.
-        :type degrees: int
+        Parameters
+        ----------
+        clock_wise : bool, optional
+            Direction to turn the motor. Clockwise if True, counter-clockwise if False., by default False
+        degrees : int
+            Degrees to rotate. Will accept negative values, if that's what you want.
+
+        Raises
+        ------
+        ValueError
+            If the motor is not connected.
         """
         self.motor.enable_action()
         if clock_wise:

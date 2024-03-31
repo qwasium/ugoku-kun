@@ -3,23 +3,36 @@ from typing import List, Dict, Union
 
 
 class UgokuHelpers:
-    """Helper functions for ugoku-kun."""
+    """Helper functions for ugoku-kun.
+
+    All methods are static.
+    """
 
     @staticmethod
     def import_json(
         fpath: str, decode: str = "utf-8", content_is_str: bool = False
     ) -> Union[Dict, List]:
-        """Takes a json file and imports it
-        If you are certain that the content is a string, set content_is_str to True
+        """Take a json file and import it
 
-        :param fpath: import file path
-        :type fpath: str
-        :param decode: file encoding, defaults to "utf-8"
-        :type decode: str, optional
-        :param content_is_str: True if entire file content is pure string, defaults to False
-        :type content_is_str: bool, optional
-        :return: imported json data
-        :rtype: Union[Dict, List]
+        Parameters
+        ----------
+        fpath : str
+            import file path
+        decode : str, optional
+            file encoding, by default "utf-8"
+        content_is_str : bool, optional
+            True if entire file content is pure string, by default False
+            Sometimes, json gets read as a single string, so this method re-loads the laoded data.
+
+        Returns
+        -------
+        Union[Dict, List]
+            imported json data
+
+        Raises
+        ------
+        FileNotFoundError
+            File not found
         """
         with open(fpath, "r", encoding=decode) as file:
             data = json.load(file)
@@ -36,15 +49,24 @@ class UgokuHelpers:
     ) -> bool:
         """Workaround for distutils.util.strtobool getting deprecated.
 
-        :param bool_str: String to be converted to bool.
-        :type bool_str: str
-        :param true_str: List of strings that represent True, defaults to ["true", "t", "yes", "y", "1", "mark"]
-        :type true_str: List[str], optional
-        :param false_str: List of strings that represent False, defaults to ["false", "f", "no", "n", "0", "space"]
-        :type false_str: List[str], optional
-        :raises ValueError: Could not convert to bool
-        :return: Converted bool.
-        :rtype: bool
+        Parameters
+        ----------
+        bool_str : str
+            String to be converted to bool.
+        true_str : List[str], optional
+            List of strings that represent True, by default ["true", "t", "yes", "y", "1", "mark"]
+        false_str : List[str], optional
+            List of strings that represent False, by default ["false", "f", "no", "n", "0", "space"]
+
+        Returns
+        -------
+        bool
+            Converted bool.
+
+        Raises
+        ------
+        ValueError
+            Could not convert to bool
         """
         # magic strings
         if true_str is None:
