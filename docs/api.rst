@@ -3,7 +3,7 @@ ugokukun
 
 Try ugokukun here.
 
-.. automodule:: ugokukun.cannon_wrapper
+.. automodule:: cannon_wrapper
     :members:
     :undoc-members:
     :show-inheritance:

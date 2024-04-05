@@ -2,43 +2,45 @@ import os
 import sys
 
 
-class AddPath:
-    """safely add a path to sys.path for importing modules
+# class AddPath:
+#     """safely add a path to sys.path for importing modules
 
-    sys.path.insert might not add the path if it is already there
-    and sys.path.remove might remove the wrong path if it occurs
+#     sys.path.insert might not add the path if it is already there
+#     and sys.path.remove might remove the wrong path if it occurs
 
-    reference:
-    https://stackoverflow.com/questions/17211078/how-to-temporarily-modify-sys-path-in-python
+#     reference:
+#     https://stackoverflow.com/questions/17211078/how-to-temporarily-modify-sys-path-in-python
 
-    Parameters
-    ----------
-    path : str
-        path to add to sys.path
-        always absolute path
+#     Parameters
+#     ----------
+#     path : str
+#         path to add to sys.path
+#         always absolute path
 
-    Example
-    -------
-    lib_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'path', 'to', 'lib')
-    with AddPath(lib_path):
-        module = __import__('mymodule')
-    """
+#     Example
+#     -------
+#     lib_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'path', 'to', 'lib')
+#     with AddPath(lib_path):
+#         module = __import__('mymodule')
+#     """
 
-    def __init__(self, path):
-        self.path = path
+#     def __init__(self, path):
+#         self.path = path
 
-    def __enter__(self):
-        sys.path.insert(0, self.path)
+#     def __enter__(self):
+#         sys.path.insert(0, self.path)
 
-    def __exit__(self, exc_type, exc_value, traceback):
-        try:
-            sys.path.remove(self.path)
-        except ValueError:
-            pass
+#     def __exit__(self, exc_type, exc_value, traceback):
+#         try:
+#             sys.path.remove(self.path)
+#         except ValueError:
+#             pass
 
 
-with AddPath(os.path.abspath("../src/")):
-    from ugokukun import __author__, __version__
+# with AddPath(os.path.abspath("../src/")):
+#     from ugokukun import __author__, __version__
+
+sys.path.insert(0, os.path.abspath("../src/"))
 
 # -- Project information
 
