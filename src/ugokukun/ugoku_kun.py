@@ -15,8 +15,7 @@ from .ugoku_helpers import UgokuHelpers as helpers
 
 
 class UgokuKun:
-    """
-    Control multiple cannon cameras and turntable.
+    """Control multiple cannon cameras and turntable.
 
     Attributes
     ----------
@@ -46,7 +45,6 @@ class UgokuKun:
         Dictionary containing the cannon cameras.
     cannon_instances : Dict[str, CannonWrapper]
         Dictionary containing the CannonWrapper instances.
-
     """
 
     def __init__(
