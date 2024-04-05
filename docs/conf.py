@@ -41,6 +41,8 @@ import sys
 #     from ugokukun import __author__, __version__
 
 sys.path.insert(0, os.path.abspath("../src/"))
+from ugokukun import __author__, __version__
+
 # -- Project information
 
 project = "Ugoku-kun"
