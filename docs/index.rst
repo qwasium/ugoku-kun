@@ -23,12 +23,11 @@ Package Reference
 -----------------
 
 .. toctree::
-    :maxdepth: 4
     :caption: Package Reference:
 
+    ugokukun.ugoku_kun
     ugokukun.cannon_wrapper
     ugokukun.keigan_wrapper
-    ugokukun.ugoku_kun
     ugokukun.ugoku_helpers
 
 
