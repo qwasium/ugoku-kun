@@ -23,7 +23,7 @@ Package Reference
 -----------------
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 4
     :caption: Package Reference:
 
     ugokukun.cannon_wrapper
