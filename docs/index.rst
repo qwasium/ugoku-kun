@@ -23,7 +23,7 @@ Package Reference
 -----------------
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
     :caption: Package Reference:
 
     ugokukun.ugoku_kun
