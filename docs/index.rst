@@ -13,9 +13,6 @@ how to :ref:`installation` the project.
 
    This project is under active development.
 
-Contents
---------
-
 .. toctree::
     :maxdepth: 2
     :caption: Contents:
@@ -26,7 +23,7 @@ Package Reference
 -----------------
 
 .. toctree::
-    :maxdepth:
+    :maxdepth: 1
     :caption: Package Reference:
 
     ugokukun.cannon_wrapper
