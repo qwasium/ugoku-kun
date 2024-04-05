@@ -13,17 +13,27 @@ how to :ref:`installation` the project.
 
    This project is under active development.
 
+Contents
+--------
+
 .. toctree::
     :maxdepth: 2
     :caption: Contents:
 
     quickstart
 
+Package Reference
+-----------------
+
 .. toctree::
-    :maxdepth: 2
+    :maxdepth:
     :caption: Package Reference:
 
-    api
+    ugokukun.cannon_wrapper
+    ugokukun.keigan_wrapper
+    ugokukun.ugoku_kun
+    ugokukun.ugoku_helpers
+
 
 Indices and tables
 ==================
