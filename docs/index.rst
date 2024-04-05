@@ -13,19 +13,21 @@ how to :ref:`installation` the project.
 
    This project is under active development.
 
-Contents
---------
-
 .. toctree::
     :maxdepth: 2
     :caption: Contents:
 
     quickstart
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Package Reference:
+
     api
 
-Module Documentation
---------------------
+Indices and tables
+==================
 
-.. automodule:: ugokukun
-    :imported-members:
-    :members:
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

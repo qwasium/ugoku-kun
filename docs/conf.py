@@ -37,12 +37,8 @@ class AddPath:
             pass
 
 
-# sys.path.insert(0, os.path.abspath("../src/"))
-
 with AddPath(os.path.abspath("../src/")):
     from ugokukun import __author__, __version__
-
-# from ugokukun import __author__, __version__
 
 # -- Project information
 
