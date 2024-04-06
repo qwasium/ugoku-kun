@@ -13,11 +13,12 @@ Headers
 -------
 
 .. table:: Task CSV Format
-   +-----------+--------------+-----------------------+-----------+-----------+-----------+
-   | task_id   | wait_time    | target                | action    | param     | payload   |
-   +===========+==============+=======================+===========+===========+===========+
-   | unique ID | time to wait | reference device json | see below | see below | see below |
-   +-----------+--------------+-----------------------+-----------+-----------+-----------+
+
++-----------+--------------+-----------------------+-----------+-----------+-----------+
+| task_id   | wait_time    | target                | action    | param     | payload   |
++===========+==============+=======================+===========+===========+===========+
+| unique ID | time to wait | reference device json | see below | see below | see below |
++-----------+--------------+-----------------------+-----------+-----------+-----------+
 
 The csv file must have the following headers or it will raise an error.:
 

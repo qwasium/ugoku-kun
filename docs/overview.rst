@@ -13,7 +13,7 @@ Workflow
 
 An example of the system setup for Ugoku-kun will look like this:
 
-.. thumbnail:: img/use_case.svg
+.. image:: img/use_case.svg
 
 Check the IP address of the camera(s) and the serial port address of the turntable.
 You will need it.
@@ -42,7 +42,7 @@ This ID is also used to refer to the device in the task CSV.
 
 The JSON file should be structured as follows:
 
-.. codeblock:: json
+.. code-block:: json
 
 	{
 		"cannon": {
@@ -57,7 +57,7 @@ The JSON file should be structured as follows:
 
 Eace device defined in the JSON file will create an instance of the corresponding class.
 
-.. thumbnail:: img/class_instance.svg
+.. image:: img/class_instance.svg
 
 Network Configuration
 ---------------------
