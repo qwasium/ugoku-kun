@@ -33,7 +33,7 @@ The main Workflow is as follows:
 You will need to create a `task csv` and `device json` file first.
 
 * For `task csv`, see the :doc:`Task CSV <task_csv>` section.
-* For `device json`, read on :ref:`below <device-list-json>`.
+* For `device json`, read on :ref:`below <Device List JSON>.
 
 Device List JSON
 ----------------

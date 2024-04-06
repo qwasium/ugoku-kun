@@ -5,16 +5,6 @@ This is a temporary documentation file. It will be deleted after the documentati
 - Mar. 29, 2024
 - Simon Kuwahara
 
-## Overview
-
-This is a temporary documentation meant to be a supplement to the README.md file.
-
-For the following, see README.md:
-
-- What is Ugoku-kun?
-- Overview.
-- How to write the task CSV and device JSON.
-
 For a quick start, see `readme_demo/readme.ipynb`.
 
 ## Class `CannonWrapper`
