@@ -64,7 +64,7 @@ Package Reference
 
 The documentation is currently broken, so refer to the following.
 
-:doc: `temp_docs.md`
+:doc: `temp_docs`
 
 Indices and tables
 ------------------
