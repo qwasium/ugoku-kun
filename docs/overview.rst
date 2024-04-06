@@ -27,6 +27,7 @@ The main Workflow is as follows:
 #. Set up camera(s) and turntable. Check or set addresses.
 #. Adjust focus on camera(s). Some camera features can only be set physically.
 #. Run Jupyter Notebook as in the Quickstart.
+#. Wait for the process to finish. Note that if there are any errors, it will stop the entire process.
 #. Check log file.
 
 You will need to create a `task csv` and `device json` file first.
@@ -42,7 +43,7 @@ This ID is also used to refer to the device in the task CSV.
 
 The JSON file should be structured as follows:
 
-.. code-block:: json
+.. code-block:: javascript
 
 	{
 		"cannon": {

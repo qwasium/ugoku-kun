@@ -10,8 +10,8 @@ This Python library is for SfM photography setups using Cannon camera and a turn
 
 Components:
 
-* Cannon camera compatible with Cannon's `ccapi<https://asia.canon/en/campaign/developerresources/sdk#digital-camera>`_.
-* Turn table using Keigan Motor compatible wit Keigan's `pykeigan<https://github.com/keigan-motor/pykeigan_motor>`_.
+* Cannon camera compatible with Cannon's `ccapi <https://asia.canon/en/campaign/developerresources/sdk#digital-camera>`_.
+* Turn table using Keigan Motor compatible wit Keigan's `pykeigan <https://github.com/keigan-motor/pykeigan_motor>`_.
 
 By using a user-defined task CSV file, Ugoku-kun can:
 

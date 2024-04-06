@@ -12,15 +12,13 @@ The csv file must be in the following format:
 Headers
 -------
 
-.. table:: Task CSV Format
+The csv file must have the following headers or it will raise an error.:
 
 +-----------+--------------+-----------------------+-----------+-----------+-----------+
 | task_id   | wait_time    | target                | action    | param     | payload   |
 +===========+==============+=======================+===========+===========+===========+
 | unique ID | time to wait | reference device json | see below | see below | see below |
 +-----------+--------------+-----------------------+-----------+-----------+-----------+
-
-The csv file must have the following headers or it will raise an error.:
 
 * ``task_id`` (str): Set a unique ID for each task. Any Duplicate task_id will raise an error.
 * ``wait_time`` (float): Time to wait from the previous task in seconds.
