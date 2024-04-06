@@ -4,6 +4,12 @@ This is a Python library for controlling Cannon cameras and Keigan Motor for SfM
 
 This Python library is built as part of an internship project at the National Agriculture and Food Research Organization (NARO) in Japan.
 
+## Documentation
+
+Please refer to the documentation for more details.
+
+[Documentation](https://ugoku-kun.readthedocs.io/en/latest/)
+
 ## Codemap
 
 - `README.md`: This file.
@@ -34,111 +40,3 @@ Tested on:
 - pykeigan-motor 2.4.0 via pip
 
 Should work on Windows too. ccapi is platform independent.
-
-## Network Configuration
-
-**Important**: Inappropriate settings can lead to connection issues.
-
-Kill any "smart" features on your router that automatically adjusts configurations such as the following:
-
-- Don't mix authentication methods -> If in doubt, use **WPA2-PSK (AES) ONLY**
-- Don't mix 2.4/5GHz bands -> set a **dedicated SSID for 2.4GHz**
-- Don't mix channel width (20MHz/40MHz) -> set to either **20MHz ONLY or 40MHz ONLY**
-- Use channels 1-11 only -> Auto channel selection is OK as long as **12/13 channels are disabled**
-
-## Workflow
-
-1. Create `task csv` and `device json`.
-2. Set up camera(s) and turntable.
-3. Adjust focus on camera(s).
-4. Run Jupyter Notebook.
-5. Check log.
-
-## Device List JSON
-
-All devices are identified by a unique ID. This ID is used to refer to the device in the task CSV.
-
-```json
-{
-  "cannon": {
-    "some_unique_camera_id": "ip_address:port"
-  },
-  "keigan": {
-    "some_unique_turntable_id": "ip_address:port"
-  }
-}
-```
-
-## Task CSV
-
-### Headers
-
-The csv file must have the following headers or it will raise an error.:
-
-- task_id (str): Unique ID of the task. Any Duplicate task_id will raise an error.
-- wait_time (float): Time to wait from the previous task. In seconds.
-- target (str): The device to control. Must be a device ID defined in the device list JSON.
-- action (str): Depends on target. See below.
-- param (str): Depends on action. See below.
-- payload (str): Depends on action. See below.
-
-### Target == "Cannon camera ID"
-
-- action == "get": HTTP GET request.
-  - param: The URL to GET.
-- action == "post": HTTP POST request.
-  - param: The URL to POST.
-  - payload: The payload to POST.
-- action == "put": HTTP PUT request.
-  - param: The URL to PUT.
-  - payload: The payload to PUT.
-- action == "delete": HTTP DELETE request.
-  - param: The URL to DELETE.
-- action == "shutter": CannonWrapper.shutter()
-  - param: do autofocus if True, else False
-- action == "aperature": CannonWrapper.set_aperature()
-  - param: aperture value
-- action == "shutterspeed": CannonWrapper.set_shutterspeed()
-  - param: shutterspeed value
-- action == "iso": CannonWrapper.set_iso()
-  - param: iso value
-- action == "whitebalance": CannonWrapper.set_whitebalance()
-  - param: whitebalance value
-- action == "color_temperature": CannonWrapper.set_color_tempe()
-  - param: color temperature value
-- action == "white_balance": CannonWrapper.set_white_balance()
-  - param: white balance value
-
-### Target == "Keigan turntable ID"
-
-- action == "cw": turn clockwise relative to current position
-  - param: The angle to turn
-- action == "ccw": turn counter-clockwise relative to current position
-  - param: The angle to turn
-- action == "speed": set speed
-  - param: The speed in rpm
-
-### Target == "all"
-
-- action == "wait": Halt entire system for specified in wait_time.
-
-## Limitations
-
-### ccapi
-
-ccapi cannot get the setting values when set to "auto". It will just return "auto".
-Also, getting file information needs some effort and I couldn't implement it yet.
-It would be nice to at least get the file name of any photo taken.
-
-### pykeigan
-
-Though any official API is appreciated, pykeigan is not well documented so it is easier to read the source code to understand how to use it.
-The software design is based on using it as a CLI tool, where the user is expected to read the console output and terminate the process via Ctrl+C when necessary.
-Thus, methods won't return any useful information and reading attributes are also not that useful.
-Subroutines can easily lead to non-terminating processes making it hard to handle with Python.
-Anyone who wants to use this library in a serious production environment should fork the repository and make the necessary changes to the source code.
-
-## TODO
-
-1. Host documentation on readthedocs.
-2. Package the code and host on PyPI.
