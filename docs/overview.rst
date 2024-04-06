@@ -32,8 +32,8 @@ The main Workflow is as follows:
 
 You will need to create a `task csv` and `device json` file first.
 
-* For `task csv`, see the `Task CSV` section.
-* For `device json`, read on below.
+* For `task csv`, see the :doc:`Task CSV <task_csv>` section.
+* For `device json`, read on :ref:`below <device-list-json>`.
 
 Device List JSON
 ----------------
@@ -45,20 +45,22 @@ The JSON file should be structured as follows:
 
 .. code-block:: javascript
 
-	{
-		"cannon": {
-			"some_unique_camera_id": "ip_address:port",
-			"another_unique_camera_id": "ip_address:port",
-			...
-		},
-		"keigan": {
-			"some_unique_turntable_id": "serial_port_address"
-		}
-	}
+    {
+        "cannon": {
+            "some_unique_camera_id": "ip_address:port",
+            "another_unique_camera_id": "ip_address:port",
+            ...
+        },
+        "keigan": {
+            "some_unique_turntable_id": "serial_port_address"
+        }
+    }
 
 Eace device defined in the JSON file will create an instance of the corresponding class.
 
 .. image:: img/class_instance.svg
+
+The `task csv` will execute against targets defined in the JSON file.
 
 Network Configuration
 ---------------------

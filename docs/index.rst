@@ -10,7 +10,7 @@ This Python library is for SfM photography setups using Cannon camera and a turn
 
 Components:
 
-* Cannon camera compatible with Cannon's `ccapi <https://asia.canon/en/campaign/developerresources/sdk#digital-camera>`_.
+* Cannon camera(s) compatible with Cannon's `ccapi <https://asia.canon/en/campaign/developerresources/sdk#digital-camera>`_.
 * Turn table using Keigan Motor compatible wit Keigan's `pykeigan <https://github.com/keigan-motor/pykeigan_motor>`_.
 
 By using a user-defined task CSV file, Ugoku-kun can:
@@ -21,7 +21,7 @@ By using a user-defined task CSV file, Ugoku-kun can:
 
 Ugoku-kun cannot:
 
-* Synchronize multiple cameras when taking photos.
+* Synchronize shutter for multiple cameras when taking photos.
 * Rotate turn table with absolute position (only relative position is supported).
 
 Installation
@@ -62,6 +62,13 @@ Package Reference
     ugokukun.keigan_wrapper
     ugokukun.ugoku_helpers
 
+The documentation is currently broken, so refer to the following.
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Supplementary Reference:
+
+    temp_docs
 
 Indices and tables
 ------------------
