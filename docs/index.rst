@@ -27,10 +27,18 @@ Ugoku-kun cannot:
 Installation
 ------------
 
-NOT IMPLEMENTED YET
+From GitHub download release: https://github.com/qwasium/ugoku-kun/releases
 
 .. code-block:: bash
 
+    pip install Ugoku-kun-0.1.0-py3-none-any.whl
+
+
+TODO: PyPI NOT SETUP YET
+
+.. code-block:: bash
+
+    # Will not work yet
     pip install ugokukun
 
 Links

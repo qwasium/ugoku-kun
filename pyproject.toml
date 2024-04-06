@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Ugoku-kun"
+version = "0.1.0"
+authors = [
+    { name="qwasium" },
+]
+description = "A package to control cannon camera and keigan motor for structure from motion"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "pyserial",
+    "requests",
+    "pandas",
+    "pykeigan-motor",
+    "timeout-decorator",
+]
+
+[project.urls]
+Repository = "https://github.com/qwasium/ugoku-kun/tree/main"
+Documenntation = "https://ugoku-kun.readthedocs.io/en/latest/"
