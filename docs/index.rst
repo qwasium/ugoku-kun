@@ -64,11 +64,7 @@ Package Reference
 
 The documentation is currently broken, so refer to the following.
 
-.. toctree::
-    :maxdepth: 1
-    :caption: Supplementary Reference:
-
-    temp_docs
+:doc: `temp_docs.md`
 
 Indices and tables
 ------------------
