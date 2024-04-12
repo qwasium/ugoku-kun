@@ -138,8 +138,8 @@ Note:
 
 - self.settings["color_temperature"]["ability"] is changed to a list of available color temperatures.
   - Example:
-	- Before: {"min": 2500, "max": 10000, "step": 100}
-	- After:  [2500, 2600, 2700, ..., 10000]
+  	- Before: {"min": 2500, "max": 10000, "step": 100}
+  	- After:  [2500, 2600, 2700, ..., 10000]
 
 ### `set_shooting_settings()`
 
@@ -149,13 +149,13 @@ Parameters:
 
 - param: str
   - Parameter to be set, such as:
-	- "shutter_speed"
-	- "aperture"
-	- "iso"
-	- "exposure"
-	- "whitebalance"
-	- "colortemperature"
-  - Valid entries are hard coded in this method.
+  	- "shutter_speed"
+  	- "aperture"
+  	- "iso"
+  	- "exposure"
+  	- "whitebalance"
+  	- "colortemperature"
+    - Valid entries are hard coded in this method.
 - value: str
   - Value of the parameter. Depends on the parameter. payload is {"value": value}
 
