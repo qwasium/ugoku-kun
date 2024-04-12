@@ -70,10 +70,6 @@ Package Reference
     ugokukun.keigan_wrapper
     ugokukun.ugoku_helpers
 
-The documentation is currently broken, so refer to the following.
-
-:doc:`Supplemetary Documentation <temp_docs>`
-
 Indices and tables
 ------------------
 
