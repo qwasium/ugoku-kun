@@ -40,7 +40,6 @@ Install from PyPI
 
 .. code-block:: bash
 
-    # Will not work yet
     pip install Ugoku-kun
 
 Links
