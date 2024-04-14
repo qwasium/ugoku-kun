@@ -36,25 +36,18 @@ By using a user-defined task CSV file...
 Installation
 ------------
 
-From GitHub download release: https://github.com/qwasium/ugoku-kun/releases
-
-.. code-block:: bash
-
-    pip install Ugoku-kun-0.1.0-py3-none-any.whl
-
-
-TODO: PyPI NOT SETUP YET
+Install from PyPI
 
 .. code-block:: bash
 
     # Will not work yet
-    pip install ugokukun
+    pip install Ugoku-kun
 
 Links
 -----
 
 * GitHub: https://github.com/qwasium/ugoku-kun/tree/main
-* PyPI: TBD
+* PyPI: https://pypi.org/project/Ugoku-kun/
 
 
 Overview and Quickstart
