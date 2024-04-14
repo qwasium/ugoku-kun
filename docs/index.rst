@@ -47,6 +47,7 @@ Links
 
 * GitHub: https://github.com/qwasium/ugoku-kun/tree/main
 * PyPI: https://pypi.org/project/Ugoku-kun/
+* Examples: See ``readme_demo`` in GitHub repo
 
 
 Overview and Quickstart
