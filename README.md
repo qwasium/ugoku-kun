@@ -18,6 +18,14 @@ Please refer to the documentation for more details.
 
 [Documentation](https://ugoku-kun.readthedocs.io/en/latest/)
 
+## Install
+
+[PyPI](https://pypi.org/project/Ugoku-kun/)
+
+```bash
+pip install Ugoku-kun
+```
+
 ## Codemap
 
 - `README.md`: This file.
