@@ -23,17 +23,17 @@ It is a good idea to set up a static IP address for the camera(s).
 
 The main Workflow is as follows:
 
-#. Create `task csv` and `device json` (explained below).
+#. Create ``task csv`` and ``device json`` (explained below).
 #. Set up camera(s) and turntable. Check or set addresses.
 #. Adjust focus on camera(s). Some camera features can only be set physically.
 #. Run Jupyter Notebook as in the Quickstart.
 #. Wait for the process to finish. Note that if there are any errors, it will stop the entire process.
 #. Check log file.
 
-You will need to create a `task csv` and `device json` file first.
+You will need to create a ``task csv`` and ``device json`` file first.
 
-* For `task csv`, see the :doc:`Task CSV <task_csv>` section.
-* For `device json`, read on :ref:`below <Device List JSON>`.
+* For ``task csv``, see the :doc:`Task CSV <task_csv>` section.
+* For ``device json``, read on below.
 
 Device List JSON
 ----------------
@@ -56,11 +56,13 @@ The JSON file should be structured as follows:
         }
     }
 
+See `readme_demo in the GitHub repo <https://github.com/qwasium/ugoku-kun/tree/main/readme_demo>`_ for an example.
+
 Eace device defined in the JSON file will create an instance of the corresponding class.
 
 .. image:: img/class_instance.svg
 
-The `task csv` will execute against targets defined in the JSON file.
+The ``task csv`` will execute against targets defined in the JSON file.
 
 Network Configuration
 ---------------------
@@ -70,12 +72,16 @@ There are some important settings to consider when setting up the network.
 
 **Important**: Inappropriate settings can lead to connection issues.
 
-Kill any "smart" features on your router that automatically adjusts configurations such as the following:
+Kill any *smart* features on your router that automatically adjusts configurations such as the following:
 
-* Don't mix authentication methods -> If in doubt, use **WPA2-PSK (AES) ONLY**
-* Don't mix 2.4/5GHz bands -> set a **dedicated SSID for 2.4GHz**
-* Don't mix channel width (20MHz/40MHz) -> set to either **20MHz ONLY or 40MHz ONLY**
-* Use channels 1-11 only -> Auto channel selection is OK as long as **12/13 channels are disabled**
+* Don't mix authentication methods.
+    * If in doubt, use **WPA2-PSK (AES) ONLY**.
+* Don't mix 2.4/5GHz bands.
+    * Set a **dedicated SSID for 2.4GHz**.
+* Don't mix channel width (20MHz/40MHz).
+    * Set to either **20MHz ONLY or 40MHz ONLY**.
+* Use channels 1-11 only.
+    * Auto channel selection is OK as long as **12/13 channels are disabled**.
 
 Limitations
 -----------
@@ -95,3 +101,11 @@ The software design is based on using it as a CLI tool, where the user is expect
 Thus, methods won't return any useful information and reading attributes are also not that useful.
 Subroutines can easily lead to non-terminating processes making it hard to handle with Python.
 Anyone who wants to use this library in a serious production environment should fork the repository and make the necessary changes to the source code.
+
+Future Support
+^^^^^^^^^^^^^^
+
+I do NOT own any hardware myself.
+Unfortunately, support for this project will be limited.
+If you are interested in forking this project, please let me know.
+I will reference your fork on this documentation so others can be aware of it.

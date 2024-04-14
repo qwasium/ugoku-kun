@@ -7,12 +7,15 @@ This CSV file will define all actions to be performed by the system.
 
 ``ugokukun.ugoku_kun.run()`` will execute the tasks defined in the csv file from the top.
 
-The csv file must be in the following format:
+The csv file must be in the format described below.
+
+Also, please see `the readme_demo in the GitHub repo <https://github.com/qwasium/ugoku-kun/tree/main/readme_demo>`_ for an example.
 
 Headers
 -------
 
-The csv file must have the following headers or it will raise an error.:
+The first line of the csv file must be a header row.
+The header row should be like the following or it will raise an error.:
 
 +-----------+--------------+-----------------------+-----------+-----------+-----------+
 | task_id   | wait_time    | target                | action    | param     | payload   |
@@ -36,46 +39,61 @@ See below for the possible values for each ``target`` type.
 
 The possible ``action`` for a Cannon camera are:
 
-* action == "get": HTTP GET request.
-  * param: The URL to GET.
-* action == "post": HTTP POST request.
-  * param: The URL to POST.
-  * payload: The payload to POST.
-* action == "put": HTTP PUT request.
-  * param: The URL to PUT.
-  * payload: The payload to PUT.
-* action == "delete": HTTP DELETE request.
-  * param: The URL to DELETE.
-* action == "shutter": CannonWrapper.shutter()
-  * param: do autofocus if True, else False
-* action == "aperature": CannonWrapper.set_aperature()
-  * param: aperture value
-* action == "shutterspeed": CannonWrapper.set_shutterspeed()
-  * param: shutterspeed value
-* action == "iso": CannonWrapper.set_iso()
-  * param: iso value
-* action == "whitebalance": CannonWrapper.set_whitebalance()
-  * param: whitebalance value
-* action == "color_temperature": CannonWrapper.set_color_tempe()
-  * param: color temperature value
-* action == "white_balance": CannonWrapper.set_white_balance()
-  * param: white balance value
+* ``action`` =="get":
+    * HTTP GET request.
+    * ``param``: The URL to GET.
+* ``action`` =="post":
+    * HTTP POST request.
+    * ``param``: The URL to POST.
+    * ``payload``: The payload to POST.
+* ``action`` =="put":
+    * HTTP PUT request.
+    * ``param``: The URL to PUT.
+    * ``payload``: The payload to PUT.
+* ``action`` =="delete":
+    * HTTP DELETE request.
+    * ``param``: The URL to DELETE.
+* ``action`` =="shutter":
+    * ``CannonWrapper.shutter()``
+    * ``param``: do autofocus if True, else False
+* ``action`` =="aperature":
+    * ``CannonWrapper.set_aperature()``
+    * ``param``: aperture value
+* ``action`` =="shutterspeed":
+    * ``CannonWrapper.set_shutterspeed()``
+    * ``param``: shutterspeed value
+* ``action`` =="iso":
+    * ``CannonWrapper.set_iso()``
+    * ``param``: iso value
+* ``action`` =="whitebalance":
+    * ``CannonWrapper.set_whitebalance()``
+    * ``param``: whitebalance value
+* ``action`` =="color_temperature":
+    * ``CannonWrapper.set_color_tempe()``
+    * ``param``: color temperature value
+* ``action`` =="white_balance":
+    * ``CannonWrapper.set_white_balance()``
+    * ``param``: white balance value
 
 ``Target`` == "Keigan turntable ID"
 -----------------------------------
 
 The possible ``action`` for a Keigan turntable are:
 
-* action == "cw": turn clockwise relative to current position
-  * param: The angle to turn
-* action == "ccw": turn counter-clockwise relative to current position
-  * param: The angle to turn
-* action == "speed": set speed
-  * param: The speed in rpm
+* ``action`` =="cw":
+    * turn clockwise relative to current position
+    * ``param``: The angle to turn
+* ``action`` =="ccw":
+    * turn counter-clockwise relative to current position
+    * ``param``: The angle to turn
+* ``action`` =="speed":
+    * set speed
+    * ``param``: The speed in rpm
 
 ``Target`` == "all"
 -------------------
 
 The possible ``action`` for all devices are:
 
-* action == "wait": Halt entire system for specified in wait_time.
+* ``action`` =="wait":
+    * Halt entire system for specified in ``wait_time``.

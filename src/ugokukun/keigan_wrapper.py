@@ -32,7 +32,7 @@ class KeiganWrapper:
 
     Notes
     -----
-    Anything not implemented in this class -> access directly from motor object.
+    Anything not implemented in this class should be accessed directly from motor object.
     pykeigan is poorly documented so I advise you to just go read the source code.
     https://github.com/keigan-motor/pykeigan_motor/tree/master
     """
