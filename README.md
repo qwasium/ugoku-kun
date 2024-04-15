@@ -6,7 +6,7 @@ This Python library is built as part of an internship project at the National Ag
 
 ## Important Notice
 
-I do NOT own any hardware myself.
+I do NOT own any compatible hardware myself.
 Unfortunately, support for this project will be limited.
 
 If you are interested in forking this project, please let me know.
@@ -29,19 +29,19 @@ pip install Ugoku-kun
 ## Codemap
 
 - `README.md`: This file.
-- ugoku_kun: The main package.
+- src/ugokukun/: The main package.
   - `__init__.py`
   - `cannon_wrapper.py`: The camera module `CannonWrapper`.
   - `keigan_wrapper.py`: The Keigan Motor module `KeiganWrapper`.
   - `ugoku_kun.py`: The main module `UgokuKun`.
   - `ugoku_helers.py`: The utility module `UgokuHelpers`.
-- docs/*: The documentation.
-- tests/*: Tests, not automated so could be improved.
-- readme_demo: Read this for quick start.
+- docs/*: Documentation.
+- tests/*: Tests, nothing is automated so this could be improved.
+- readme_demo/: Read this for quick start.
   - `readme.ipynb`: READ THIS FIRST.
-  - `conf`/*: task CSV files and device list JSON file.
-  - `dump`/*: Output files such as log files.
-  - `importers.py`: helper functions for importing modules.
+  - conf/*: Task CSV files and device list JSON file.
+  - dump/*: Output files such as log files.
+  - `importers.py`: Helper functions for importing modules.
 
 ## Dependencies
 
