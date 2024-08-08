@@ -74,6 +74,9 @@ The possible ``action`` for a Cannon camera are:
 * ``action`` =="white_balance":
     * ``CannonWrapper.set_white_balance()``
     * ``param``: white balance value
+* ``action`` =="dump":
+    * ``CannonWrapper.dump_attributes()``
+    * ``param``: output file path
 
 ``Target`` == "Keigan turntable ID"
 -----------------------------------

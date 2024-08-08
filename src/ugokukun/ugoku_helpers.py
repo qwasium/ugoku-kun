@@ -70,6 +70,10 @@ class UgokuHelpers:
         ValueError
             Could not convert to bool
         """
+        if isinstance(bool_str, np.bool):
+            # numpy.bool does not have .lower() attribute
+            return bool_str
+
         # magic strings
         if true_str is None:
             true_str = ["true", "t", "yes", "y", "1", "mark"]
@@ -81,7 +85,5 @@ class UgokuHelpers:
             return True
         elif bool_str in false_str:
             return False
-        elif isinstance(bool_str, np.bool):
-            return bool_str
         else:
             raise ValueError(f"Could not convert to bool: {bool_str}")
