@@ -58,6 +58,8 @@ The JSON file should be structured as follows:
 
 See `readme_demo in the GitHub repo <https://github.com/qwasium/ugoku-kun/tree/main/readme_demo>`_ for an example.
 
+If using only camera(s) and no turntable, keep the ``keigan`` key with empty value: ``"keigan": {}``.
+
 Eace device defined in the JSON file will create an instance of the corresponding class.
 
 .. image:: img/class_instance.svg

@@ -1,6 +1,8 @@
 import json
 from typing import List, Dict, Union
 
+import numpy as np
+
 
 class UgokuHelpers:
     """Helper functions for ugoku-kun.
@@ -52,7 +54,7 @@ class UgokuHelpers:
         Parameters
         ----------
         bool_str : str
-            String to be converted to bool.
+            String to be converted to bool. numpy.bool is accepted as type str.
         true_str : List[str], optional
             List of strings that represent True, by default ["true", "t", "yes", "y", "1", "mark"]
         false_str : List[str], optional
@@ -61,7 +63,7 @@ class UgokuHelpers:
         Returns
         -------
         bool
-            Converted bool.
+            Converted bool. If numpy.bool is passed, it will return as is.
 
         Raises
         ------
@@ -79,5 +81,7 @@ class UgokuHelpers:
             return True
         elif bool_str in false_str:
             return False
+        elif isinstance(bool_str, np.bool):
+            return bool_str
         else:
             raise ValueError(f"Could not convert to bool: {bool_str}")
