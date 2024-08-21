@@ -154,6 +154,7 @@ class CannonWrapper:
         req_timeout: Tuple[float, float] = (3.0, 7.5),
         ip_port: str = "192.168.1.2:8080",
         auto_power_off: bool = False,
+        sync_time: bool = True,
         log_path: str = "log.txt",
     ):
         """Initialize connector by connecting to cannon camera and disabling auto power off.
@@ -174,6 +175,8 @@ class CannonWrapper:
             IP address and port of the camera. Format is: {IP address}:{port}., by default "
         auto_power_off : bool, optional
             Disables auto power off if False., by default False
+        sync_time : bool, optional
+            Synchronize camera time with computer time if True., by default True
         log_path : str, optional
             Path of log file for logging., by default "log.txt"
         """
@@ -223,6 +226,10 @@ class CannonWrapper:
         # Disable auto power off
         if not auto_power_off:
             self.kill_auto_power_off()
+
+        # Sync time
+        if sync_time:
+            self.sync_time()
 
         # message connected
         # print("\n#####################################################################")
@@ -520,12 +527,35 @@ class CannonWrapper:
         req.models.Response
             Shutter button response.
         """
-        af = bool(af)  # int [0|1] -> int::bool [False|True]
-        payload = {"af": af}
+        payload = {"af": bool(af)} # int [0|1] -> int::bool [False|True]
         api_str = self.get_full_uri("/shooting/control/shutterbutton")
         shot = self.http_post(api_str, payload)
         self.logger.info("  - Shutter button pressed")
         return shot
+
+    def sync_time(self) -> req.models.Response:
+        """Set camera time to current time (of the computer).
+
+        Returns
+        -------
+        req.models.Response
+            Response of the request.
+        """
+        now = time.localtime()
+
+        if now.tm_isdst == -1:
+            self.logger.warning("  - Daylight saving time is not known")
+            raise ValueError("Daylight saving time is not known")
+
+        payload = {
+            "datetime": time.strftime("%a, %d %b %Y %H:%M:%S %z", now),
+            "dst": bool(now.tm_isdst) # int [0|1] -> int::bool [False|True]
+        }
+        print(payload)
+        api_str = self.get_full_uri("/functions/datetime")
+        sync = self.http_put(api_str, payload)
+        self.logger.info("  - Time synchronized")
+        return sync
 
     def dump_attributes(self, ouput_path: str = "camera_settings.json") -> None:
         """Dump all settings to JSON file.

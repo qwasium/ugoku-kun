@@ -240,6 +240,7 @@ class UgokuKun:
             - "color_temperature": self.cannon_instances[camera].set_color_temp()
             - "white_balance": self.cannon_instances[camera].set_white_balance()
             - "shutter_speed": self.cannon_instances[camera].set_shutter_speed()
+            - "sync_time": self.cannon_instances[camera].sync_time()
             - "dump": self.cannon_instances[camera].dump_attributes()
         """
         # HTTP GET
@@ -318,6 +319,9 @@ class UgokuKun:
             return self.cannon_instances[camera].set_shutter_speed(
                 shutter_speed=self.csv_df.at[row_index, "param"]
             )
+
+        if self.csv_df.at[row_index, "action"] == "sync_time":
+            return self.cannon_instances[camera].sync_time()
 
         if self.csv_df.at[row_index, "action"] == "dump":
             return self.cannon_instances[camera].dump_attributes(

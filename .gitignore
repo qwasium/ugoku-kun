@@ -12,3 +12,6 @@ build
 dist
 src/*.egg-info
 docs/build
+
+# log
+*.log

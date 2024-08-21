@@ -74,6 +74,9 @@ The possible ``action`` for a Cannon camera are:
 * ``action`` =="white_balance":
     * ``CannonWrapper.set_white_balance()``
     * ``param``: white balance value
+* ``action`` == "sync_time":
+    * ``CannonWrapper.sync_time()``
+    * ``param``: None
 * ``action`` =="dump":
     * ``CannonWrapper.dump_attributes()``
     * ``param``: output file path
