@@ -49,7 +49,7 @@ class UgokuHelpers:
     def strtobool(
         bool_str: str, true_str: List[str] = None, false_str: List[str] = None
     ) -> bool:
-        """Workaround for distutils.util.strtobool getting deprecated.
+        """Workaround for distutils.util.strtobool getting deprecated (PEP632).
 
         Parameters
         ----------
@@ -63,16 +63,17 @@ class UgokuHelpers:
         Returns
         -------
         bool
-            Converted bool. If numpy.bool is passed, it will return as is.
+            Converted bool. From numpy 2.0.0: if numpy.bool is passed, it will return as is.
 
         Raises
         ------
         ValueError
             Could not convert to bool
         """
-        if isinstance(bool_str, np.bool):
-            # numpy.bool does not have .lower() attribute
-            return bool_str
+        if np.__version__ >= "2.0.0":
+            if isinstance(bool_str, np.bool):
+                # numpy.bool does not have .lower() attribute
+                return bool_str
 
         # magic strings
         if true_str is None:
